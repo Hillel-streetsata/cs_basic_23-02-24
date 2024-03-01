@@ -1,4 +1,6 @@
-﻿namespace _01_the_first_acquaintance
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace _01_the_first_acquaintance
 {
     internal class Program
     {
@@ -8,6 +10,11 @@
             // Ctrl + Space - Intellesence 
             // Ctrl + e + c - commenting
             // Ctrl + e + u - uncommenting
+            // Ctrl + k + d - like "prettier" - formatter
+            // Ctrl + e + v - copy current line and enter it's after current code
+            // Shift + Alt + arrows up and down - multyline line typing
+            // snippets
+            // cw + tab+tab => Console.WriteLine();
 
             /* Console.WriteLine("The first step");
              * fgfg
@@ -24,9 +31,9 @@
             //int age = 37;
             //age = 34; // присвоїти значення справа тому що зліва
 
-            FunWithBasicDataTypes();
-            // FunWithNumericConversions();
-            // FunWithOperators();
+            //FunWithBasicDataTypes();
+            //FunWithNumericConversions();
+            FunWithOperators();
 
             // Examples();
 
@@ -58,24 +65,117 @@
 
             // decimal
             decimal dc = 456.789m; // 28 after comma
+
             // char
+            char ch = 'A'; // 1 byte utf-8 (Unicode) 32000... - utf-16 
+
+            Console.WriteLine(ch);
+
+            Console.Write("   **   ");
+            Console.Write("  ****  ");
+            Console.Write(" **  **");
+            Console.Write("********");
+
+            int cha = 70;
+            Console.WriteLine((char)cha);
+
             // string
+            string firstLine = "Hello";
+            string secondLine = "World!";
+            string result = firstLine + ", " + secondLine; // string concatination
+            Console.WriteLine(result); // Hello, World!
+
+            Console.Write("Please enter first name ");
+            string name = Console.ReadLine();
+
+            Console.Write("Second name ");
+            string surname = Console.ReadLine();
+
+            string fullName = name + " " + surname;
+            Console.WriteLine("Hello, " + fullName);
+
+            // Escape-sequencies
+            Console.WriteLine("To be or not to be\n\t\t\'W. Schecspiar\r\'");
+
+            Console.WriteLine("Enter password:");
+            Console.Write("*******\r");
+
+            string str2 = string.Empty; // \0
+
+            
+            Console.WriteLine();
+
+
+            Console.ReadLine();
         }
 
         static void FunWithNumericConversions()
         {
             // numeric-conversions
+            // не явне приведення типів
+            byte b = 255;
+            int i = b + 1; // numeric-conversions
+
+            try
+            {
+                checked
+                {
+                    // явне приведення типів
+                    byte b1 = (byte)i; // ??? 9 Error
+                    Console.WriteLine(b1); // --Error MaxNumber (255) 0 // переповнення регістру
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+            Console.WriteLine("next");
+
+
+            Console.Write("Enter first number: ");
+            //int firstNumber = int.Parse(Console.ReadLine());
+            int firstNumber = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter second number: ");
+            int secondNumber = Convert.ToInt32(Console.ReadLine());
+
+            int sum = firstNumber + secondNumber;
+
+            string result = "Sum: " + sum;
+
+            Console.WriteLine(result);
+
+            Console.WriteLine("Task 1");
+            Console.WriteLine(new string('-', 15));
         }
 
         static void FunWithOperators()
         {
             // operators
+            int a = 12;
+            int b = -5;
+            int resultDivide = a / b; // 3
+            int resultModule = a % b; // 2
+
+            Console.WriteLine(resultDivide);
+            Console.WriteLine(resultModule);
+
+            // +1
+            int i = 0;
+            //i++; // i = i + 1; // 1 // інкремент
+            //++i; // i = i + 1; // 1 // інкремент
+            //i--; // i = i - 1; // декримент
+
+            Console.WriteLine(++i); // 1? 0
+            Console.WriteLine(-i); // -1
         }
 
         static void Examples()
         {
             /*
              * Задано довжину та ширину прямокутника. Знайдіть його площу.
+             *
              * Задано температуру в градусах Цельсія. Переведіть її в градуси Фаренгейта за формулою: F = (C * 9/5) + 32.
              * Задано радіус кола. Знайдіть його площу за формулою: Area = π * r^2, де π - число Пі.
              * Задано рік. Перевірте, чи він є високосним.
