@@ -1,7 +1,6 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace _01_the_first_acquaintance
+﻿namespace _01_the_first_acquaintance
 {
+
 #pragma warning disable S1118 // Utility classes should not have public constructors
     internal class Program
 #pragma warning restore S1118 // Utility classes should not have public constructors
@@ -17,6 +16,9 @@ namespace _01_the_first_acquaintance
             // Shift + Alt + arrows up and down - multyline line typing
             // snippets
             // cw + tab+tab => Console.WriteLine();
+            // F11 - step into
+            // F10 - step over
+            // Shift + F11 - go out from block (Method)
 
             /* Console.WriteLine("The first step");
              * fgfg
@@ -44,9 +46,11 @@ namespace _01_the_first_acquaintance
 
             //Console.WriteLine(ReturnLine(4, 8, 0));
 
-            int result = DivideTwoNumbers(9, 0);
+            //int result = DivideTwoNumbers(9, 0);
 
-            Console.WriteLine(result);
+            //Console.WriteLine(result);
+
+            FunWithConditions();
         }
 
 
@@ -312,14 +316,58 @@ namespace _01_the_first_acquaintance
 
             try
             {
+                secondNumber = Convert.ToInt32(Console.ReadLine());
                 result = firstNumber / secondNumber;
             }
-            catch (Exception ex)
+            catch (DivideByZeroException ex)
             {
+                // Show user
+                // logging
                 Console.WriteLine(ex.Message);
             }
+            catch (FormatException ex)
+            {
+                Console.WriteLine(ex.Message);
+                
+            }
+            finally 
+            {
+                Console.WriteLine("Finally is here");
+            }          
+
+
+            Console.WriteLine("After divide");
 
             return result;
+        }
+
+        static void FunWithConditions()
+        {
+            int a = 5;//new Random().Next(1, 100); // 99
+            int b = 15;//new Random().Next(1, 100); // 99
+            int c = 25;
+
+            bool res = c > a & c > b; // true & true => true
+
+            // Bin alg
+            // & &&
+            // true & true => true
+            // true & false => false
+            // false && true => false
+            // false & false => false
+
+            // | ||
+            // true | true => true
+            // true | false => true
+            // false | true => true
+            // false | false => false
+
+            // bool trueFalse = a > b; 5 > 3 => true 
+            // bool trueFalse = a < b; 2 > 3 => true
+            // bool trueFalse = a >= b; 5 > 4 or 5 = 5 => true
+            // bool trueFalse = a <= b; 5 < 4 or 5 = 5 => true
+            // bool trueFalse = a == b; 5 = 5 true
+            // bool trueFalse = a != b; 1 != 9 true
         }
     }
 }
