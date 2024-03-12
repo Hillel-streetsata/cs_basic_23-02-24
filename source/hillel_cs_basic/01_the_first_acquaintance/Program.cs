@@ -1,4 +1,8 @@
-﻿namespace _01_the_first_acquaintance
+﻿using System.Data.SqlTypes;
+using System.Security.Cryptography;
+using System.Text;
+
+namespace _01_the_first_acquaintance
 {
 
 #pragma warning disable S1118 // Utility classes should not have public constructors
@@ -7,6 +11,9 @@
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = Encoding.UTF8;
+
             // F5 - build (compile)
             // Ctrl + Space - Intellesence 
             // Ctrl + e + c - commenting
@@ -19,6 +26,7 @@
             // F11 - step into
             // F10 - step over
             // Shift + F11 - go out from block (Method)
+            // Ctrl + k + s - Surround with...
 
             /* Console.WriteLine("The first step");
              * fgfg
@@ -343,11 +351,11 @@
 
         static void FunWithConditions()
         {
-            int a = 5;//new Random().Next(1, 100); // 99
-            int b = 15;//new Random().Next(1, 100); // 99
-            int c = 25;
+            //int a = 5;//new Random().Next(1, 100); // 99
+            //int b = 15;//new Random().Next(1, 100); // 99
+            //int c = 25;
 
-            bool res = c > a & c > b; // true & true => true
+            //bool res = c > a & c > b; // true & true => true
 
             // Bin alg
             // & &&
@@ -368,6 +376,174 @@
             // bool trueFalse = a <= b; 5 < 4 or 5 = 5 => true
             // bool trueFalse = a == b; 5 = 5 true
             // bool trueFalse = a != b; 1 != 9 true
+
+            // Задається ціле число.Якщо він позитивний, додайте до нього 1;
+            // В іншому випадку не змінюйте його. Виведіть отримане число.
+
+            //int r1 = new Random().Next(-10, 5);
+            //int r2 = new Random().Next(1, 100);
+
+            //if (r1 > 0)
+            //{
+            //    r1++;
+            //}
+            //else 
+            //{
+            //    r1 += 2; // r1 = r1 + 2
+            //}
+
+            //Console.WriteLine(r1);
+
+            //// Дано два числа.Виведіть більше з них
+            //int r1 = new Random().Next(1, 3);
+            //int r2 = new Random().Next(1, 3);
+
+            //if (r1 == r2)
+            //{
+            //    Console.WriteLine("r1 equal r2");
+            //}
+            //else if (r1 > r2)
+            //{
+            //    Console.WriteLine(r1 + "(r1) is bigger");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(r2 + "(r2) is bigger");
+            //}
+
+            // Дано три числа. Знайдіть найменший.
+            //int r1 = new Random().Next(1, 100);
+            //int r2 = new Random().Next(1, 100);
+            //int r3 = new Random().Next(1, 100);
+
+            //if (r1 < r2 && r1 < r3)
+            //{
+            //    Console.WriteLine(r1 + "min is r1");
+            //}
+            //else if (r2 < r1 && r2 < r3)
+            //{
+            //    Console.WriteLine(r2 + "min is r2");
+            //}
+            //else
+            //{
+            //    Console.WriteLine( r3 + "min is r3");
+            //}
+
+            //int min = Math.Min(r1, Math.Min(r2, r3));
+            //Console.WriteLine("Min is: " + min);
+
+            // Дано дві змінні цілочисельного типу: A і B.Якщо їх значення не рівні,
+            // то призначте суму цих значень кожній змінній, а якщо вони рівні,
+            // то привласніть змінним нульові значення. Вивести нові значення змінних A і B.
+
+            //int A = new Random().Next(1, 100);
+            //int B = new Random().Next(1, 100);
+            //int sum = A + B;
+
+            //if (A != B)
+            //{
+            //    A = sum;
+            //    B = sum;
+            //}
+            //else
+            //{
+            //    A = B = 0;
+            //}
+
+            //Console.WriteLine($"{A} {B}");
+
+
+            // a & b sign operation - + - / * %
+
+            //int a = new Random().Next(1, 100);
+            //int b = new Random().Next(1, 100);
+            //label1:
+            //Console.Write("Type the sign of operstion: ");
+            //string country = Console.ReadLine();
+            //Console.Write("Type the lang: ");
+            //string langCult = Console.ReadLine();
+
+            //switch (country)
+            //{
+            //    case "ENG":
+            //    case "USA":
+            //        Console.WriteLine("Translate to English");
+            //        break;
+            //    case "CAN":
+            //        {
+            //            if (langCult == "FR")
+            //            {
+            //                Console.WriteLine("Translate to Fr");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("Translate to English");
+            //            }
+            //            break;
+            //        }
+            //    default:
+            //        break;
+            //}
+
+
+            int a = new Random().Next(1, 5);
+            int b = new Random().Next(1, 5);
+            int c = new Random().Next(1, 5);
+
+            int max = 0;
+
+            // ?:
+            max = (a > b && a > c) ? a : (b > c && b > a) ? b : c;
+
+            // if/else
+            if (a > b) max = a;
+            else max = b;
+
+
+            //switch (sign)
+            //{
+            //    case "+":
+            //        Console.WriteLine(a + b);
+            //        break;
+            //    case "-":
+            //        Console.WriteLine(a - b);
+            //        break;
+            //    case "*":
+            //        Console.WriteLine(a * b);
+            //        break;
+            //    case "/":
+            //        Console.WriteLine(a / b);
+            //        break;
+            //    default:
+            //        Console.WriteLine("You entered fault sign");
+            //        goto label1;
+            //}
+
+            Console.WriteLine("After switch");
+            //if (sign.Equals("+"))
+            //{
+            //    Console.WriteLine(a + b);
+            //}
+            //else if (sign == "-")
+            //{
+            //    Console.WriteLine(a - b);
+            //}
+            //else if (sign.Equals("*"))
+            //{
+            //    Console.WriteLine(a * b);
+            //}
+            //else if (sign.Equals("/"))
+            //{
+            //    if (b == 0)
+            //    {
+            //        throw new DivideByZeroException();
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(a / b);
+            //    }
+            //}
+
         }
     }
 }
