@@ -621,7 +621,7 @@ namespace _01_the_first_acquaintance
             int firstNum = num / 10; // 2
             int secondNum = num % 10; // 3
 
-
+            Console.WriteLine();
         }
     }
 }
