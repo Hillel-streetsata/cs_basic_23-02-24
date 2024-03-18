@@ -1,0 +1,14 @@
+C:\Users\Nik\Desktop\Программирование\HoweWork2\bin\Debug\net8.0\HoweWork2.exe
+C:\Users\Nik\Desktop\Программирование\HoweWork2\bin\Debug\net8.0\HoweWork2.deps.json
+C:\Users\Nik\Desktop\Программирование\HoweWork2\bin\Debug\net8.0\HoweWork2.runtimeconfig.json
+C:\Users\Nik\Desktop\Программирование\HoweWork2\bin\Debug\net8.0\HoweWork2.dll
+C:\Users\Nik\Desktop\Программирование\HoweWork2\bin\Debug\net8.0\HoweWork2.pdb
+C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0\HoweWork2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0\HoweWork2.AssemblyInfoInputs.cache
+C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0\HoweWork2.AssemblyInfo.cs
+C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0\HoweWork2.csproj.CoreCompileInputs.cache
+C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0\HoweWork2.dll
+C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0\refint\HoweWork2.dll
+C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0\HoweWork2.pdb
+C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0\HoweWork2.genruntimeconfig.cache
+C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0\ref\HoweWork2.dll
