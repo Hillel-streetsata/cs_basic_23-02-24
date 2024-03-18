@@ -1,0 +1,16 @@
+GitHub (Need to be Sign in): https://github.com
+GitHub Repository (all materials): https://github.com/streetsata/cs_basic_23-02-24
+
+Value Types
+Integral-numeric-types: https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/builtin-types/integral-numeric-types
+Floating-point-numeric-types: https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types 
+Char: https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/builtin-types/char
+
+Numeric-conversions: https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/builtin-types/numeric-conversions
+
+Opertors: https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/operators/
+
+Refferance Types
+String: https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/builtin-types/reference-types
+
+Methods: https://learn.microsoft.com/ru-ru/dotnet/csharp/methods
