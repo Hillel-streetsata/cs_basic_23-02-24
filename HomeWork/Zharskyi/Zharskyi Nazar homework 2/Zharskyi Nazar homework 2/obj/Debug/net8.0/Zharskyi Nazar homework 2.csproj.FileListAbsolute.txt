@@ -1,0 +1,14 @@
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\bin\Debug\net8.0\Zharskyi Nazar homework 2.exe
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\bin\Debug\net8.0\Zharskyi Nazar homework 2.deps.json
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\bin\Debug\net8.0\Zharskyi Nazar homework 2.runtimeconfig.json
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\bin\Debug\net8.0\Zharskyi Nazar homework 2.dll
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\bin\Debug\net8.0\Zharskyi Nazar homework 2.pdb
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\obj\Debug\net8.0\Zharskyi Nazar homework 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\obj\Debug\net8.0\Zharskyi Nazar homework 2.AssemblyInfoInputs.cache
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\obj\Debug\net8.0\Zharskyi Nazar homework 2.AssemblyInfo.cs
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\obj\Debug\net8.0\Zharskyi Nazar homework 2.csproj.CoreCompileInputs.cache
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\obj\Debug\net8.0\Zharskyi Nazar homework 2.dll
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\obj\Debug\net8.0\refint\Zharskyi Nazar homework 2.dll
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\obj\Debug\net8.0\Zharskyi Nazar homework 2.pdb
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\obj\Debug\net8.0\Zharskyi Nazar homework 2.genruntimeconfig.cache
+D:\hillel\домашка 2\Zharskyi Nazar homework 2\Zharskyi Nazar homework 2\obj\Debug\net8.0\ref\Zharskyi Nazar homework 2.dll
