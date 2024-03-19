@@ -486,18 +486,18 @@ namespace _01_the_first_acquaintance
             //}
 
 
-            int a = new Random().Next(1, 5);
-            int b = new Random().Next(1, 5);
-            int c = new Random().Next(1, 5);
+            //int a = new Random().Next(1, 5);
+            //int b = new Random().Next(1, 5);
+            //int c = new Random().Next(1, 5);
 
-            int max = 0;
+            //int max = 0;
 
-            // ?:
-            max = (a > b && a > c) ? a : (b > c && b > a) ? b : c;
+            //// ?:
+            //max = (a > b && a > c) ? a : (b > c && b > a) ? b : c;
 
-            // if/else
-            if (a > b) max = a;
-            else max = b;
+            //// if/else
+            //if (a > b) max = a;
+            //else max = b;
 
 
             //switch (sign)
@@ -519,7 +519,7 @@ namespace _01_the_first_acquaintance
             //        goto label1;
             //}
 
-            Console.WriteLine("After switch");
+            //Console.WriteLine("After switch");
             //if (sign.Equals("+"))
             //{
             //    Console.WriteLine(a + b);
@@ -544,6 +544,84 @@ namespace _01_the_first_acquaintance
             //    }
             //}
 
+            // Вгадати число, яке загадав користувач, використовуючи тільки інструкцію if-else
+
+            //int compVar = new Random().Next(1, 5);
+            //int answer = 0;
+
+            //try
+            //{
+            //    answer = Convert.ToInt32(Console.ReadLine());
+            //    if (answer == compVar)
+            //    {
+            //        Console.WriteLine("Компьютер вгадав " + compVar);
+            //    }
+            //    else 
+            //    {
+            //        Console.WriteLine("Компьютер не вгадав " + compVar);
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+
+            // Loops
+
+            //int i = 0; // змінна, яка управляє циклом -- лічильник цикла
+
+            //while (i < 10) 
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
+
+            // Складіть програму для виведення будь-якого числа будь-яку задану кількість разів у формі,
+            // подібній до тієї, що показана в попередньому завданні.
+
+            //int i = 0;
+            //int num = new Random().Next(1, 1000);
+            //int count = new Random().Next(1, 10);
+
+            //while (i < count)
+            //{
+            //    Console.WriteLine(num);
+            //    i++;
+            //}
+
+            // Одна штука якогось виробу коштує 20,4 грн.
+            // Вивести таблицю вартості 2, 3, ..., 20 штук цього товару
+
+            //int i = 2;
+            //double cost = 20.4;
+
+            //while (i < 21)
+            //{
+            //    Console.WriteLine("Price of " + i + " cost " + i * cost);
+            //    i++;
+            //}
+
+            // Вивести таблицю множення на 7:   1 х 7 = 7    2 х 7 = 14 ... 9 х 7 = 63
+            //int i = 1;
+            //while (i <= 9) 
+            //{
+            //    Console.WriteLine(i + " x 7 = " + i * 7);
+
+            //    i++;
+            //}
+
+            // Задається ціле число N (> 0).
+            // Використовуючи операції ділення на ціло і взявши залишок від ділення,
+            // знайдіть кількість та суму його цифр.
+            // 1235456
+
+            int num = new Random().Next(10, 100); // 99
+
+            // 23   17 % 3 => 
+            int firstNum = num / 10; // 2
+            int secondNum = num % 10; // 3
+
+            Console.WriteLine();
         }
     }
 }
