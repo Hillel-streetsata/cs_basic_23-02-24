@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleApp3": {
+      "commandName": "Project",
+      "commandLineArgs": "encoding UTF8"
+    }
+  }
+}

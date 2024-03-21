@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1
+﻿namespace Homework3
 {
     internal class Program
     {
