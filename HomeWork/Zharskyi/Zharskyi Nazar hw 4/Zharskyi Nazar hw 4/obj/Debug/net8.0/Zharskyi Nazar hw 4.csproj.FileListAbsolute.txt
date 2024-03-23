@@ -1,0 +1,14 @@
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\bin\Debug\net8.0\Zharskyi Nazar hw 4.exe
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\bin\Debug\net8.0\Zharskyi Nazar hw 4.deps.json
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\bin\Debug\net8.0\Zharskyi Nazar hw 4.runtimeconfig.json
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\bin\Debug\net8.0\Zharskyi Nazar hw 4.dll
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\bin\Debug\net8.0\Zharskyi Nazar hw 4.pdb
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\obj\Debug\net8.0\Zharskyi Nazar hw 4.GeneratedMSBuildEditorConfig.editorconfig
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\obj\Debug\net8.0\Zharskyi Nazar hw 4.AssemblyInfoInputs.cache
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\obj\Debug\net8.0\Zharskyi Nazar hw 4.AssemblyInfo.cs
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\obj\Debug\net8.0\Zharskyi Nazar hw 4.csproj.CoreCompileInputs.cache
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\obj\Debug\net8.0\Zharskyi Nazar hw 4.dll
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\obj\Debug\net8.0\refint\Zharskyi Nazar hw 4.dll
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\obj\Debug\net8.0\Zharskyi Nazar hw 4.pdb
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\obj\Debug\net8.0\Zharskyi Nazar hw 4.genruntimeconfig.cache
+D:\hillel\домашка 3\Zharskyi Nazar hw 4\Zharskyi Nazar hw 4\obj\Debug\net8.0\ref\Zharskyi Nazar hw 4.dll
