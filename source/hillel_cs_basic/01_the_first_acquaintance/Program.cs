@@ -343,7 +343,7 @@ namespace _01_the_first_acquaintance
                 Console.WriteLine("Finally is here");
             }
 
-
+        l0:;
             Console.WriteLine("After divide");
 
             return result;
@@ -613,15 +613,195 @@ namespace _01_the_first_acquaintance
             // Задається ціле число N (> 0).
             // Використовуючи операції ділення на ціло і взявши залишок від ділення,
             // знайдіть кількість та суму його цифр.
-            // 1235456
+            // 1235456 6 digits 21
 
-            int num = new Random().Next(10, 100); // 99
+            //int num = new Random().Next(10, 1_000); // 1 5
+            //int temp = num;
+            //int sum = 0;
+            //int count = 0;
 
-            // 23   17 % 3 => 
-            int firstNum = num / 10; // 2
-            int secondNum = num % 10; // 3
+            //while (num > 0)
+            //{
+            //    count++;
+            //    sum += num % 10;
+            //    num /= 10;
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine($"Your {temp} has {count} digits and they sum is {sum}");
+
+            //// 123456
+
+
+
+            //Console.WriteLine();
+
+            // do while 1 * 2 * 3
+
+            // факторіал числа
+            //int resualt = 1, num = 1;
+            //int n = 16;
+
+            //Console.WriteLine("!0 = " + resualt);
+
+
+            //try
+            //{
+            //    checked
+            //    {
+            //        do
+            //        {
+            //            resualt *= num;
+            //            Console.WriteLine("!{0} = {1}", num, resualt);
+            //            num++;
+            //        } while (num <= n);
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+
+            // for
+
+            //int i = 0;
+            //while (i < 10) { Console.WriteLine("Test"); i++; }
+
+            //for (int i = 0, j = 10; i < 10 && j > 4; i++, j--)
+            //{
+            //    Console.WriteLine($"{i}\t\t{j}");
+            //}
+
+            //while (true) 
+            //{
+
+            //}
+
+            //int i = 0;
+
+            //for (int i = 0; ; i += 2)
+            //{
+            //    if (i > 100) break;
+
+            //    Console.WriteLine(i);
+            //    //if (i % 2 != 0)
+            //    //{
+            //    //    Console.WriteLine(i);
+            //    //    continue;
+            //    //}
+
+            //}
+
+            // foreach
+
+            //string str = "Hello, World!";
+
+            //int[] arr = { 1, 2, 3 };
+            // unmutable
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    arr[i] = i * 2;
+            //    Console.WriteLine(arr[i]);
+            //}
+
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
+
+            //foreach (int i in arr)
+            //{
+            //    Console.Write(i + " ");
+            //}
+
+            // 25  2 5 = 7 * 7 = 49
+
+            //do 
+            //{
+            //    //
+
+            //}while (true);
+            //while (true)
+            //{
+
+            //}
+
+            //for (int i = 0; i < 10 ; i++ )
+            //{
+
+            //    if (i == 8)
+            //        continue;
+            //    Console.WriteLine(i);
+            //}
+
+
+            //for (int i = 1; i < 10; i++)
+            //{
+            //    for (int j = 1; j < 10; j++)
+            //    {
+            //        bool isTrue = j % 2 != 0;
+
+            //        if (isTrue)
+            //        {
+            //            Console.Write($"{i} x {j} = {i * j}\t");
+            //        }
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //for (int i = 1; i < 10; i++)
+            //{
+            //    for (int j = 1; j < 10; j++)
+            //    {
+            //        if (j % 2 != 0)
+            //            Console.Write($"{i} x {j} = {i * j}\t");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            // Anti-pattern - Spagetti-code
+
+            //l2:;
+
+            bool flag = false;
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (!flag) // flag != true
+                {
+                    for (int j = 0; j < 10; j++)
+                    {
+                        if (!flag)
+                        {
+                            if (i * j == 0)
+                            {
+                                flag = true;
+                                break;
+                            }
+                        }
+                    }
+                }
+                    break;
+            }
+
+            //l1:; // label
+
+            //goto l2;
+
+
+            //    int i = 0;
+            //l1:;
+            //    if (i < 10)
+            //    {
+            //        Console.WriteLine(i);
+            //        i++;
+            //        goto l1;
+            //    }
+
+
+            //    string str = "Hello";
+            //    foreach (var item in str)
+            //    {
+            //        Console.WriteLine(item);
+            //    }
         }
     }
 }
