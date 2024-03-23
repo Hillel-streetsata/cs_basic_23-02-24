@@ -1,0 +1,14 @@
+C:\Users\smvnr\source\repos\Homework 4\obj\Debug\net7.0\Homework 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smvnr\source\repos\Homework 4\obj\Debug\net7.0\Homework 4.AssemblyInfoInputs.cache
+C:\Users\smvnr\source\repos\Homework 4\obj\Debug\net7.0\Homework 4.AssemblyInfo.cs
+C:\Users\smvnr\source\repos\Homework 4\obj\Debug\net7.0\Homework 4.csproj.CoreCompileInputs.cache
+C:\Users\smvnr\source\repos\Homework 4\bin\Debug\net7.0\Homework 4.exe
+C:\Users\smvnr\source\repos\Homework 4\bin\Debug\net7.0\Homework 4.deps.json
+C:\Users\smvnr\source\repos\Homework 4\bin\Debug\net7.0\Homework 4.runtimeconfig.json
+C:\Users\smvnr\source\repos\Homework 4\bin\Debug\net7.0\Homework 4.dll
+C:\Users\smvnr\source\repos\Homework 4\bin\Debug\net7.0\Homework 4.pdb
+C:\Users\smvnr\source\repos\Homework 4\obj\Debug\net7.0\Homework 4.dll
+C:\Users\smvnr\source\repos\Homework 4\obj\Debug\net7.0\refint\Homework 4.dll
+C:\Users\smvnr\source\repos\Homework 4\obj\Debug\net7.0\Homework 4.pdb
+C:\Users\smvnr\source\repos\Homework 4\obj\Debug\net7.0\Homework 4.genruntimeconfig.cache
+C:\Users\smvnr\source\repos\Homework 4\obj\Debug\net7.0\ref\Homework 4.dll
