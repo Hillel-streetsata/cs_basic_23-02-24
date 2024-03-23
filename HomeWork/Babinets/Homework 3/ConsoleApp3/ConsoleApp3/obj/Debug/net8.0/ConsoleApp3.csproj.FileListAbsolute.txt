@@ -1,0 +1,29 @@
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\ConsoleApp3.exe
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\ConsoleApp3.deps.json
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\ConsoleApp3.runtimeconfig.json
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\ConsoleApp3.dll
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\ConsoleApp3.pdb
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.AssemblyInfoInputs.cache
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.AssemblyInfo.cs
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.dll
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\refint\ConsoleApp3.dll
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.pdb
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.genruntimeconfig.cache
+C:\Users\ninad\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ref\ConsoleApp3.dll
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\ConsoleApp3.exe
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\ConsoleApp3.deps.json
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\ConsoleApp3.runtimeconfig.json
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\ConsoleApp3.dll
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\bin\Debug\net8.0\ConsoleApp3.pdb
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.AssemblyInfoInputs.cache
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.AssemblyInfo.cs
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.sourcelink.json
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.dll
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\refint\ConsoleApp3.dll
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.pdb
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ConsoleApp3.genruntimeconfig.cache
+C:\Users\ninad\OneDrive\Рабочий стол\Nine\Homework\cs_basic_23-02-24\HomeWork\Babinets\Homework 3\ConsoleApp3\ConsoleApp3\obj\Debug\net8.0\ref\ConsoleApp3.dll
