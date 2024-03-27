@@ -14,6 +14,10 @@ namespace _01_the_first_acquaintance
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
 
+            // artemenko_hw_5
+
+            // fgfgf
+
             // / % Convert.To...
             //string str = "123456";
 
