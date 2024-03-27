@@ -14,6 +14,21 @@ namespace _01_the_first_acquaintance
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
 
+            // / % Convert.To...
+            //string str = "123456";
+
+            //foreach (char arg in str) 
+            //{
+            //    if (char.IsDigit(arg))
+            //    {
+                    
+            //    }
+            //}
+
+            // "123457845454"
+
+
+
             // F5 - build (compile)
             // Ctrl + Space - Intellesence 
             // Ctrl + e + c - commenting
@@ -58,7 +73,22 @@ namespace _01_the_first_acquaintance
 
             //Console.WriteLine(result);
 
-            FunWithConditions();
+            // FunWithConditions();
+            FunWithArray();
+        }
+
+        private static void FunWithArray()
+        {
+            /* Tasks
+             * Напишіть програму, яка знаходить найбільший елемент у масиві.
+             * Напишіть програму, яка знаходить середнє арифметичне всіх елементів у масиві.
+             * Напишіть програму, яка обчислює суму всіх парних елементів у масиві. 
+             * Напишіть програму, яка перевертає масив (змінює порядок елементів на зворотний).
+             * Напишіть програму, яка перевіряє, чи масив є відсортованим у зростаючому порядку. 
+             * Напишіть програму, яка замінює всі від'ємні елементи у масиві на нульові. 
+             * Напишіть програму, яка знаходить позицію (індекс) заданого елемента у масиві.
+             * Напишіть програму, яка обчислює кількість входжень заданого елемента у масив.
+             */
         }
 
 
@@ -761,26 +791,26 @@ namespace _01_the_first_acquaintance
 
             //l2:;
 
-            bool flag = false;
+            //bool flag = false;
 
-            for (int i = 0; i < 10; i++)
-            {
-                if (!flag) // flag != true
-                {
-                    for (int j = 0; j < 10; j++)
-                    {
-                        if (!flag)
-                        {
-                            if (i * j == 0)
-                            {
-                                flag = true;
-                                break;
-                            }
-                        }
-                    }
-                }
-                    break;
-            }
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    if (!flag) // flag != true
+            //    {
+            //        for (int j = 0; j < 10; j++)
+            //        {
+            //            if (!flag)
+            //            {
+            //                if (i * j == 0)
+            //                {
+            //                    flag = true;
+            //                    break;
+            //                }
+            //            }
+            //        }
+            //    }
+            //        break;
+            //}
 
             //l1:; // label
 
