@@ -83,6 +83,34 @@ namespace _01_the_first_acquaintance
 
         private static void FunWithArray()
         {
+            // Collections
+            // Queue - First In First Out
+            // Stack - First In Last Out
+
+            // Array default value 
+
+            // Одновимірні масиви
+            //int i = 100_00_00_00;
+            //int[] array = new int[10]; // 0 n(10) - 1
+            //int[] array = [78, 22, 34, 7, 9, 8]; // C# 9 .Net 6
+            //array[0] = 8;
+            //array[1] = 7;
+            //// array[10] = 8; exeption
+
+            //Console.WriteLine(array[0]);
+
+            //int[] arr = new int[10];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    arr[i] = i * 8; // Access
+            //    Console.Write(arr[i] + " ");
+            //}
+
+            // Багатовимирні масиви
+            //      2...3..n (Matrix) Тесиракт
+            //      Jagged (Рвані) Charts 
+
             /* Tasks
              * Напишіть програму, яка знаходить найбільший елемент у масиві.
              * Напишіть програму, яка знаходить середнє арифметичне всіх елементів у масиві.
@@ -93,6 +121,43 @@ namespace _01_the_first_acquaintance
              * Напишіть програму, яка знаходить позицію (індекс) заданого елемента у масиві.
              * Напишіть програму, яка обчислює кількість входжень заданого елемента у масив.
              */
+
+            int[] arr = new int[10];
+            
+            Random rnd = new Random();
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = rnd.Next(1, 100);
+                Console.Write($"{arr[i]} ");
+            }
+
+            int max = arr[0];
+            int min = arr[0];
+            double sum = 0;
+            int evenSum = 0;
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                sum += arr[i];
+
+                if (max < arr[i])
+                {
+                    max = arr[i];
+                }
+
+                if (min > arr[i])
+                {
+                    min = arr[i];
+                }
+
+                if (i % 2 == 0)
+                {
+                    evenSum += arr[i];
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine($"{min} {max} {sum / arr.Length} {evenSum}");
         }
 
 
