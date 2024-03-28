@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zharskyi Nazar hw 4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1516106d046200e705e4d07a441b0ab683bed2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eed57c6068d599d9b214754ac56c8516443fbef9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zharskyi Nazar hw 4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zharskyi Nazar hw 4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
