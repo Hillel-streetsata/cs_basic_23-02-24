@@ -1,26 +1,26 @@
-.vs/
-bin/
-obj/
+# .vs/
+# bin/
+# obj/
 
-Zharskyi Nazar homework 1/.vs/
-Zharskyi Nazar homework 1/Zharskyi Nazar homework/bin/
-Zharskyi Nazar homework 1/Zharskyi Nazar homework/obj/
-Zharskyi Nazar homework 1/Zharskyi Nazar homework/Zharskyi Nazar homework.csproj
-Zharskyi Nazar homework 1/Zharskyi Nazar homework.sln
+Zharskyi Nazar homework*/.vs/
+Zharskyi Nazar homework*/Zharskyi Nazar homework*/bin/
+Zharskyi Nazar homework*/Zharskyi Nazar homework*/obj/
+Zharskyi Nazar homework*/Zharskyi Nazar homework*/Zharskyi Nazar homework*.csproj
+Zharskyi Nazar homework*/Zharskyi Nazar homework*.sln
 
-Zharskyi Nazar homework 2/.vs/
-Zharskyi Nazar homework 2/Zharskyi Nazar homework 2/bin/
-Zharskyi Nazar homework 2/Zharskyi Nazar homework 2/obj/
-Zharskyi Nazar homework 2/Zharskyi Nazar homework 2/Zharskyi Nazar homework 2.csproj
-Zharskyi Nazar homework 2/Zharskyi Nazar homework 2.sln
+# Zharskyi Nazar homework 2/.vs/
+# Zharskyi Nazar homework 2/Zharskyi Nazar homework 2/bin/
+# Zharskyi Nazar homework 2/Zharskyi Nazar homework 2/obj/
+# Zharskyi Nazar homework 2/Zharskyi Nazar homework 2/Zharskyi Nazar homework 2.csproj
+# Zharskyi Nazar homework 2/Zharskyi Nazar homework 2.sln
 
-Zharskyi Nazar hw 4/.vs/
-Zharskyi Nazar hw 4/Zharskyi Nazar hw 4/bin/
-Zharskyi Nazar hw 4/Zharskyi Nazar hw 4/obj/
-Zharskyi Nazar hw 4/Zharskyi Nazar hw 4.sln
-Zharskyi Nazar hw 4/Zharskyi Nazar hw 4/Zharskyi Nazar hw 4.csproj
+# Zharskyi Nazar hw 4/.vs/
+# Zharskyi Nazar hw 4/Zharskyi Nazar hw 4/bin/
+# Zharskyi Nazar hw 4/Zharskyi Nazar hw 4/obj/
+# Zharskyi Nazar hw 4/Zharskyi Nazar hw 4.sln
+# Zharskyi Nazar hw 4/Zharskyi Nazar hw 4/Zharskyi Nazar hw 4.csproj
 
-Zharskyi Nazar Homework 5/Zharskyi Nazar Homework 5/bin/
-Zharskyi Nazar Homework 5/Zharskyi Nazar Homework 5/obj/
-Zharskyi Nazar Homework 5/Zharskyi Nazar Homework 5.sln
-Zharskyi Nazar Homework 5/Zharskyi Nazar Homework 5/Zharskyi Nazar Homework 5.csproj
+# Zharskyi Nazar Homework 5/Zharskyi Nazar Homework 5/bin/
+# Zharskyi Nazar Homework 5/Zharskyi Nazar Homework 5/obj/
+# Zharskyi Nazar Homework 5/Zharskyi Nazar Homework 5.sln
+# Zharskyi Nazar Homework 5/Zharskyi Nazar Homework 5/Zharskyi Nazar Homework 5.csproj
