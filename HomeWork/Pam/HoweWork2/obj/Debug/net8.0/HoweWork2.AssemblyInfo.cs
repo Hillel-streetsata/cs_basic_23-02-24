@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HoweWork2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47346df9ba10c64ce4bd048b7412cc6a6911f7ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("HoweWork2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HoweWork2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
