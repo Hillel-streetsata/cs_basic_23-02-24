@@ -25,7 +25,7 @@ namespace _01_the_first_acquaintance
             //{
             //    if (char.IsDigit(arg))
             //    {
-                    
+
             //    }
             //}
 
@@ -78,7 +78,24 @@ namespace _01_the_first_acquaintance
             //Console.WriteLine(result);
 
             // FunWithConditions();
-            FunWithArray();
+            //FunWithArray();
+
+            int[] arr = { -4, 1, 1, 5, 3, 7, -2 }; // 0       
+            //int[] arr = { 1, 2, 3 }; // 0
+
+
+            ArrayExamples arrayExamples = new ArrayExamples();
+            arrayExamples.ArrayMaxElement(arr);
+            Console.WriteLine();
+            arrayExamples.AverageArr(arr);
+            Console.WriteLine();
+            arrayExamples.SumEvenElementOfArr(arr);
+            Console.WriteLine();
+            //arrayExamples.ReverseArr(arr);
+            //Console.WriteLine();
+            arrayExamples.IsSortedIntoGrowingOrder(arr);
+            Console.WriteLine();
+            arrayExamples.SwitchNegativeElements(arr);
         }
 
         private static void FunWithArray()
@@ -123,7 +140,7 @@ namespace _01_the_first_acquaintance
              */
 
             int[] arr = new int[10];
-            
+
             Random rnd = new Random();
 
             for (int i = 0; i < arr.Length; i++)
