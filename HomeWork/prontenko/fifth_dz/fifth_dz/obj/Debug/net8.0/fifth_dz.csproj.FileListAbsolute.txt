@@ -1,0 +1,14 @@
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\bin\Debug\net8.0\fifth_dz.exe
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\bin\Debug\net8.0\fifth_dz.deps.json
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\bin\Debug\net8.0\fifth_dz.runtimeconfig.json
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\bin\Debug\net8.0\fifth_dz.dll
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\bin\Debug\net8.0\fifth_dz.pdb
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\obj\Debug\net8.0\fifth_dz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\obj\Debug\net8.0\fifth_dz.AssemblyInfoInputs.cache
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\obj\Debug\net8.0\fifth_dz.AssemblyInfo.cs
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\obj\Debug\net8.0\fifth_dz.csproj.CoreCompileInputs.cache
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\obj\Debug\net8.0\fifth_dz.dll
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\obj\Debug\net8.0\refint\fifth_dz.dll
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\obj\Debug\net8.0\fifth_dz.pdb
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\obj\Debug\net8.0\fifth_dz.genruntimeconfig.cache
+C:\Users\Назарій\Desktop\programing\fifth_dz\fifth_dz\obj\Debug\net8.0\ref\fifth_dz.dll

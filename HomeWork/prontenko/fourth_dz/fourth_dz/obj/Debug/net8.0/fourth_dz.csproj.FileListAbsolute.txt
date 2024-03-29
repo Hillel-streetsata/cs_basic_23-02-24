@@ -1,0 +1,14 @@
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\obj\Debug\net8.0\fourth_dz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\obj\Debug\net8.0\fourth_dz.AssemblyInfoInputs.cache
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\obj\Debug\net8.0\fourth_dz.AssemblyInfo.cs
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\obj\Debug\net8.0\fourth_dz.csproj.CoreCompileInputs.cache
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\bin\Debug\net8.0\fourth_dz.exe
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\bin\Debug\net8.0\fourth_dz.deps.json
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\bin\Debug\net8.0\fourth_dz.runtimeconfig.json
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\bin\Debug\net8.0\fourth_dz.dll
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\bin\Debug\net8.0\fourth_dz.pdb
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\obj\Debug\net8.0\fourth_dz.dll
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\obj\Debug\net8.0\refint\fourth_dz.dll
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\obj\Debug\net8.0\fourth_dz.pdb
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\obj\Debug\net8.0\fourth_dz.genruntimeconfig.cache
+C:\Users\Назарій\Desktop\programing\fourth_dz\fourth_dz\obj\Debug\net8.0\ref\fourth_dz.dll

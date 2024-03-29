@@ -12,3 +12,18 @@ C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0
 C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0\HoweWork2.pdb
 C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0\HoweWork2.genruntimeconfig.cache
 C:\Users\Nik\Desktop\Программирование\HoweWork2\obj\Debug\net8.0\ref\HoweWork2.dll
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\bin\Debug\net8.0\HoweWork2.exe
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\bin\Debug\net8.0\HoweWork2.deps.json
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\bin\Debug\net8.0\HoweWork2.runtimeconfig.json
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\bin\Debug\net8.0\HoweWork2.dll
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\bin\Debug\net8.0\HoweWork2.pdb
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\obj\Debug\net8.0\HoweWork2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\obj\Debug\net8.0\HoweWork2.AssemblyInfoInputs.cache
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\obj\Debug\net8.0\HoweWork2.AssemblyInfo.cs
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\obj\Debug\net8.0\HoweWork2.csproj.CoreCompileInputs.cache
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\obj\Debug\net8.0\HoweWork2.sourcelink.json
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\obj\Debug\net8.0\HoweWork2.dll
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\obj\Debug\net8.0\refint\HoweWork2.dll
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\obj\Debug\net8.0\HoweWork2.pdb
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\obj\Debug\net8.0\HoweWork2.genruntimeconfig.cache
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\obj\Debug\net8.0\ref\HoweWork2.dll
