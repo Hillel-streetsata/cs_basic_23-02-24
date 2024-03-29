@@ -8,4 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HoweWork2
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+=======
 build_property.ProjectDir = C:\Users\smvnr\Source\Repos\Hillel-streetsata\cs_basic_23-02-24\HomeWork\Pam\HoweWork2\
+>>>>>>> d0f239bf75e841ae349cad77cb7bdaa513ea3287
