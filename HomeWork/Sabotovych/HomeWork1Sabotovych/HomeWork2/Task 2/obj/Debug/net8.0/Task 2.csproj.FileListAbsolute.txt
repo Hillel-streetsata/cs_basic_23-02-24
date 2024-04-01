@@ -12,3 +12,18 @@ C:\Users\sabot\source\repos\Task 2\Task 2\obj\Debug\net8.0\refint\Task 2.dll
 C:\Users\sabot\source\repos\Task 2\Task 2\obj\Debug\net8.0\Task 2.pdb
 C:\Users\sabot\source\repos\Task 2\Task 2\obj\Debug\net8.0\Task 2.genruntimeconfig.cache
 C:\Users\sabot\source\repos\Task 2\Task 2\obj\Debug\net8.0\ref\Task 2.dll
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\bin\Debug\net8.0\Task 2.exe
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\bin\Debug\net8.0\Task 2.deps.json
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\bin\Debug\net8.0\Task 2.runtimeconfig.json
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\bin\Debug\net8.0\Task 2.dll
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\bin\Debug\net8.0\Task 2.pdb
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\obj\Debug\net8.0\Task 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\obj\Debug\net8.0\Task 2.AssemblyInfoInputs.cache
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\obj\Debug\net8.0\Task 2.AssemblyInfo.cs
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\obj\Debug\net8.0\Task 2.csproj.CoreCompileInputs.cache
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\obj\Debug\net8.0\Task 2.sourcelink.json
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\obj\Debug\net8.0\Task 2.dll
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\obj\Debug\net8.0\refint\Task 2.dll
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\obj\Debug\net8.0\Task 2.pdb
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\obj\Debug\net8.0\Task 2.genruntimeconfig.cache
+C:\Users\Елена\Desktop\Курсы C# (Мои работы)\cs_basic_23-02-24\HomeWork\Sabotovych\HomeWork1Sabotovych\HomeWork2\Task 2\obj\Debug\net8.0\ref\Task 2.dll

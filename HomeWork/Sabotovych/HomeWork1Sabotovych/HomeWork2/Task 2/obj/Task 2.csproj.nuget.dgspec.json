@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sabot\\source\\repos\\Task 2\\Task 2\\Task 2.csproj": {}
+    "C:\\Users\\Елена\\Desktop\\Курсы C# (Мои работы)\\cs_basic_23-02-24\\HomeWork\\Sabotovych\\HomeWork1Sabotovych\\HomeWork2\\Task 2\\Task 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sabot\\source\\repos\\Task 2\\Task 2\\Task 2.csproj": {
+    "C:\\Users\\Елена\\Desktop\\Курсы C# (Мои работы)\\cs_basic_23-02-24\\HomeWork\\Sabotovych\\HomeWork1Sabotovych\\HomeWork2\\Task 2\\Task 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabot\\source\\repos\\Task 2\\Task 2\\Task 2.csproj",
+        "projectUniqueName": "C:\\Users\\Елена\\Desktop\\Курсы C# (Мои работы)\\cs_basic_23-02-24\\HomeWork\\Sabotovych\\HomeWork1Sabotovych\\HomeWork2\\Task 2\\Task 2.csproj",
         "projectName": "Task 2",
-        "projectPath": "C:\\Users\\sabot\\source\\repos\\Task 2\\Task 2\\Task 2.csproj",
-        "packagesPath": "C:\\Users\\sabot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabot\\source\\repos\\Task 2\\Task 2\\obj\\",
+        "projectPath": "C:\\Users\\Елена\\Desktop\\Курсы C# (Мои работы)\\cs_basic_23-02-24\\HomeWork\\Sabotovych\\HomeWork1Sabotovych\\HomeWork2\\Task 2\\Task 2.csproj",
+        "packagesPath": "C:\\Users\\Елена\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Елена\\Desktop\\Курсы C# (Мои работы)\\cs_basic_23-02-24\\HomeWork\\Sabotovych\\HomeWork1Sabotovych\\HomeWork2\\Task 2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sabot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Елена\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
