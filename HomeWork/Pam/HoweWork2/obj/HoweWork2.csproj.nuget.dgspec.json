@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nik\\Desktop\\Dev\\HoweWork2\\HoweWork2.csproj": {}
+    "C:\\Users\\Елена\\Desktop\\Курсы C# (Мои работы)\\cs_basic_23-02-24\\HomeWork\\Pam\\HoweWork2\\HoweWork2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nik\\Desktop\\Dev\\HoweWork2\\HoweWork2.csproj": {
+    "C:\\Users\\Елена\\Desktop\\Курсы C# (Мои работы)\\cs_basic_23-02-24\\HomeWork\\Pam\\HoweWork2\\HoweWork2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nik\\Desktop\\Dev\\HoweWork2\\HoweWork2.csproj",
+        "projectUniqueName": "C:\\Users\\Елена\\Desktop\\Курсы C# (Мои работы)\\cs_basic_23-02-24\\HomeWork\\Pam\\HoweWork2\\HoweWork2.csproj",
         "projectName": "HoweWork2",
-        "projectPath": "C:\\Users\\Nik\\Desktop\\Dev\\HoweWork2\\HoweWork2.csproj",
-        "packagesPath": "C:\\Users\\Nik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nik\\Desktop\\Dev\\HoweWork2\\obj\\",
+        "projectPath": "C:\\Users\\Елена\\Desktop\\Курсы C# (Мои работы)\\cs_basic_23-02-24\\HomeWork\\Pam\\HoweWork2\\HoweWork2.csproj",
+        "packagesPath": "C:\\Users\\Елена\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Елена\\Desktop\\Курсы C# (Мои работы)\\cs_basic_23-02-24\\HomeWork\\Pam\\HoweWork2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Елена\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

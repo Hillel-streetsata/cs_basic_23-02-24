@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\38050\\.nuget\\packages\\": {}
+    "C:\\Users\\ninad\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\38050\\source\\repos\\HomeWork3\\HomeWork3\\HomeWork3.csproj",
+      "projectUniqueName": "C:\\Users\\ninad\\OneDrive\\Рабочий стол\\Nine\\Homework\\cs_basic_23-02-24\\HomeWork\\Zhuk\\HomeWork3\\HomeWork3\\HomeWork3.csproj",
       "projectName": "HomeWork3",
-      "projectPath": "C:\\Users\\38050\\source\\repos\\HomeWork3\\HomeWork3\\HomeWork3.csproj",
-      "packagesPath": "C:\\Users\\38050\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\38050\\source\\repos\\HomeWork3\\HomeWork3\\obj\\",
+      "projectPath": "C:\\Users\\ninad\\OneDrive\\Рабочий стол\\Nine\\Homework\\cs_basic_23-02-24\\HomeWork\\Zhuk\\HomeWork3\\HomeWork3\\HomeWork3.csproj",
+      "packagesPath": "C:\\Users\\ninad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ninad\\OneDrive\\Рабочий стол\\Nine\\Homework\\cs_basic_23-02-24\\HomeWork\\Zhuk\\HomeWork3\\HomeWork3\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\38050\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ninad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
