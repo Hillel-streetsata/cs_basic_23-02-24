@@ -161,13 +161,17 @@ namespace ConsoleApp5
         static void Random10()
         {
             Console.WriteLine("\n 9.Заповніть масив з 10 елементів випадковими числами в інтервалі [-10..10]\r\n");
-            int[] rand = new int[10];
+            int[,] rand = new int[5, 2];
             Random rnd3 = new Random();
-            for (int i = 0; i < rand.Length; i++)
+            for (int i = 0; i < rand.GetLength(0); i++)
             {
-                rand[i] = rnd3.Next(-10, 10);
-                Console.WriteLine($"{i} = {rand[i]}");
+                for (int j = 0; j < rand.GetLength(1); j++)
+                { 
+                rand[i, j] = rnd3.Next(-10, 10);
+                Console.Write("\t"+rand[i, j]);
             }
+            Console.WriteLine();   
+        }
             TwodimensionalArray();
         }
         static void TwodimensionalArray()
