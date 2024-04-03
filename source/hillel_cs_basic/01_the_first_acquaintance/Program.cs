@@ -80,22 +80,87 @@ namespace _01_the_first_acquaintance
             // FunWithConditions();
             //FunWithArray();
 
-            int[] arr = { -4, 1, 1, 5, 3, 7, -2 }; // 0       
-            //int[] arr = { 1, 2, 3 }; // 0
+            int[] arr = { -4, 1, 1, 5, 3, 7, -2, 3 }; // 0      = new int[8]
+                                                      //int[] destArr = new int[10];
+                                                      // List<int>
 
 
             ArrayExamples arrayExamples = new ArrayExamples();
-            arrayExamples.ArrayMaxElement(arr);
+
+            //PrintArray(arr);
+
+            //Array.Sort(arr); // quickSort > 10000 1000-10000 Insert < 1000 SelectionSort
+            arrayExamples.ArraySort(arr);
+            PrintArray(arr);
             Console.WriteLine();
-            arrayExamples.AverageArr(arr);
-            Console.WriteLine();
-            arrayExamples.SumEvenElementOfArr(arr);
-            Console.WriteLine();
-            //arrayExamples.ReverseArr(arr);
+            int elem = 1;
+
+            // ElastikSearch
+            // ExpressionTree
+
+            int index = arrayExamples.BinSearch(arr, elem);
+
+            Console.WriteLine(index);
+
+
+            //Array.Resize(ref arr, 10);
+
+            //PrintArray(arr);
+
+            //arr[8] = 7;
+            //arr[9] = 6;
+
+            //PrintArray(arr);
+
+
+            ////arrayExamples.ArrayCopy(arr, ref destArr);
+
+            //PrintArray(destArr);
+
+            //Array.Copy(arr, destArr, arr.Length);
+
+            //PrintArray(destArr);
+
+            //arrayExamples.FoundPosition(arr, 3);
+            //arrayExamples.Count(arr, 1);
+
+            //ArrayExamples arrayExamples = new ArrayExamples();
+            //arrayExamples.ArrayMaxElement(arr);
             //Console.WriteLine();
-            arrayExamples.IsSortedIntoGrowingOrder(arr);
+            //arrayExamples.AverageArr(arr);
+            //Console.WriteLine();
+            //arrayExamples.SumEvenElementOfArr(arr);
+            //Console.WriteLine();
+            ////arrayExamples.ReverseArr(arr);
+            ////Console.WriteLine();
+            //arrayExamples.IsSortedIntoGrowingOrder(arr);
+            //Console.WriteLine();
+            //arrayExamples.SwitchNegativeElements(arr);
+
+            //int a = 7; // 8
+            //int b = 8; // 7
+            //Console.WriteLine($"{a} {b}");
+            //Swap(ref a, ref b);
+            //Console.WriteLine($"{a} {b}");
+        }
+
+        // Копіювання значення
+        private static void Swap(ref int a, ref int b)
+        {
+            //Console.WriteLine($"{a} {b}");
+            int c = a;
+            a = b;
+            b = c;
+            //Console.WriteLine($"{a} {b}");
+        }
+
+        private static void PrintArray(int[] arr)
+        {
+            foreach (int item in arr) 
+            {
+                Console.Write(item + " ");
+            }
             Console.WriteLine();
-            arrayExamples.SwitchNegativeElements(arr);
         }
 
         private static void FunWithArray()
@@ -176,8 +241,6 @@ namespace _01_the_first_acquaintance
             Console.WriteLine();
             Console.WriteLine($"{min} {max} {sum / arr.Length} {evenSum}");
         }
-
-
 
         //static void FunWithBasicDataTypes()
         //{
