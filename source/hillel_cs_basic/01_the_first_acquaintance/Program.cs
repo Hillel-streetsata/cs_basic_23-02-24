@@ -14,6 +14,11 @@ namespace _01_the_first_acquaintance
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
 
+            StringExamples examples = new StringExamples();
+            examples.FunWithString();
+
+
+
             // artemenko_hw_5
 
             // fgfgf
@@ -80,27 +85,28 @@ namespace _01_the_first_acquaintance
             // FunWithConditions();
             //FunWithArray();
 
-            int[] arr = { -4, 1, 1, 5, 3, 7, -2, 3 }; // 0      = new int[8]
+            //int[] arr = { -4, 1, 1, 5, 3, 7, -2, 3 }; // 0      = new int[8]
                                                       //int[] destArr = new int[10];
                                                       // List<int>
 
 
-            ArrayExamples arrayExamples = new ArrayExamples();
-
+            //ArrayExamples arrayExamples = new ArrayExamples();
+            //arrayExamples.FunWithMultyDemensionsArr();
+            //arrayExamples.FunWithJaggedArray();
             //PrintArray(arr);
 
             //Array.Sort(arr); // quickSort > 10000 1000-10000 Insert < 1000 SelectionSort
-            arrayExamples.ArraySort(arr);
-            PrintArray(arr);
-            Console.WriteLine();
-            int elem = 1;
+            //arrayExamples.ArraySort(arr);
+            //PrintArray(arr);
+            //Console.WriteLine();
+            //int elem = 1;
 
             // ElastikSearch
             // ExpressionTree
 
-            int index = arrayExamples.BinSearch(arr, elem);
+            //int index = arrayExamples.BinSearch(arr, elem);
 
-            Console.WriteLine(index);
+            //Console.WriteLine(index);
 
 
             //Array.Resize(ref arr, 10);

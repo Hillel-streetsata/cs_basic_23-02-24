@@ -146,7 +146,7 @@ namespace _01_the_first_acquaintance
             int count = 0;
             foreach (int item in arr)
             {
-                if(item == elem)
+                if (item == elem)
                     count++;
             }
 
@@ -166,7 +166,7 @@ namespace _01_the_first_acquaintance
         }
 
         //    Сортування масиву (Bubble Sort)
-        public void ArraySort(int[] arr) 
+        public void ArraySort(int[] arr)
         {
             int length = arr.Length;
 
@@ -191,7 +191,7 @@ namespace _01_the_first_acquaintance
             int left = 0;
             int right = arr.Length - 1;
 
-            while (left <= right) 
+            while (left <= right)
             {
                 int mid = left + (right - left) / 2;
 
@@ -203,17 +203,100 @@ namespace _01_the_first_acquaintance
                 {
                     left = mid + 1; // Шукати у правій частині масиву
                 }
-                else 
+                else
                 {
                     right = mid - 1; // Шукати у лівій частині масиву
                 }
             }
 
-
             return -1; // Method is faild || -1 NotFound
         }
 
+        public void FunWithMultyDemensionsArr()
+        {
+            int index1 = 10;
+            int index2 = 5;
+            int[,] arr = new int[index1, index2];
+            PrintAndAddArr(arr);
+
+            // Задано двовимірний масив. Відображення:
+            // а) всіх елементів третього рядка масиву, починаючи з останнього елемента цього рядка;
+            // б) Всі елементи k-го стовпця масиву, починаючи з нижнього елемента цього стовпця.
+            Console.WriteLine();
+            for (int i = 0; i < index1; i++)
+            {
+                for (int j = index2 - 1; j >= 0; j--)
+                {
+                    if (i == 2)
+                    {
+                        Console.Write(arr[i, j] + "\t");
+                    }
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine();
+
+            int k = new Random().Next(0, index2);
+
+            for (int i = index1 - 1; i >= 0; i--)
+            {
+                Console.WriteLine(arr[i, k]);
+            }
+        }
+
+        public void FunWithJaggedArray()
+        {
+            int[][] jaggedArray = new int[5][];
+            jaggedArray[0] = new int[new Random().Next(1, 10)];
+            jaggedArray[1] = new int[new Random().Next(1, 10)];
+            jaggedArray[2] = new int[new Random().Next(1, 10)];
+            jaggedArray[3] = new int[new Random().Next(1, 10)];
+            jaggedArray[4] = new int[new Random().Next(1, 10)];
+
+            // заповнення значеннями
+            for (int i = 0; i < jaggedArray.Length; i++)
+            {
+                for (int j = 0; j < jaggedArray[i].Length; j++)
+                {
+                    jaggedArray[i][j] = new Random().Next(1, 8);
+                }
+            }
+
+            for (int i = 0; i < jaggedArray.Length; i++)
+            {
+                for (int j = 0; j < jaggedArray[i].Length; j++)
+                {
+                    Console.Write(jaggedArray[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
+
+            string[][] jaggedStringArray = new string[2][];
+            jaggedStringArray[0] = ["apple", "banana", "chery"];
+            jaggedStringArray[1] = ["orange", "grape"];
+
+            var jaggedVarArray = new[]
+            {
+                new object[] { 1, "orange", new Random() },
+                new object[] { 2, 3 ,7 }
+            };
+        }
+
+        private static void PrintAndAddArr(int[,] arr)
+        {
+
+            Random random = new Random();
 
 
+            for (int i = 0; i < arr.GetLength(0); i++) // column
+            {
+                for (int j = 0; j < arr.GetLength(1); j++) // row
+                {
+                    arr[i, j] = random.Next(1, 1000);
+                    Console.Write(arr[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
+        }
     }
 }
