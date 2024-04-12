@@ -29,7 +29,7 @@ class Program
         //Console.WriteLine("Введіть будь-яке слово:  ");
         //string wordStr = Console.ReadLine();
 
-        //if (wordStr.Length < 3)
+        //if (wordStr.Length <= 3)
         //{
         //    Console.WriteLine("Введіть слово, яке складається з більше ніж 2 символи.");
         //    return;
