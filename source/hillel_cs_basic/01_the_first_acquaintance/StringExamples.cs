@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -7,6 +8,13 @@ using System.Threading.Tasks;
 
 namespace _01_the_first_acquaintance
 {
+    public class Range
+    {
+        public int MyProperty1 { get; set; }
+        public int MyProperty2 { get; set; }
+        public int MyProperty3 { get; set; }
+    }
+
     public class StringExamples
     {
         // .Net -> System.Int32  ---- Common Types System
@@ -133,23 +141,23 @@ namespace _01_the_first_acquaintance
             // Garbage Collector collect bad referances
 
             // StringBuilder
-            string myStr = "Hello, World!"; // lenght + lenght / 2
+            //string myStr = "Hello, World!"; // lenght + lenght / 2
 
-            ////for (int i = 0; i < myStr.Length; i++)
-            ////{
-            ////    myStr[i] = 'a'; // Error
-            ////}
+            //////for (int i = 0; i < myStr.Length; i++)
+            //////{
+            //////    myStr[i] = 'a'; // Error
+            //////}
 
-            StringBuilder sb = new StringBuilder(myStr);
+            //StringBuilder sb = new StringBuilder(myStr);
 
-            for (int i = 0; i < myStr.Length / 2; i++)
-            {
-                var c = sb[i];
-                sb[i] = sb[myStr.Length - i - 1];
-                sb[myStr.Length - i - 1] = c;
-            }
+            //for (int i = 0; i < myStr.Length / 2; i++)
+            //{
+            //    var c = sb[i];
+            //    sb[i] = sb[myStr.Length - i - 1];
+            //    sb[myStr.Length - i - 1] = c;
+            //}
 
-            Console.WriteLine(sb);
+            //Console.WriteLine(sb);
 
 
 
@@ -170,6 +178,112 @@ namespace _01_the_first_acquaintance
             //string correctName = string.Concat(firstLetter, tailName);
 
 
+            //int v = 15; // HEX DEC BIN OCT
+            // DEC
+            // 0 - 9
+            
+            // BIN
+            // 0, 1
+            
+            // OCT
+            // 0 - 7
+
+            // HEX
+            // 0 - 9, A - F
+
+            // DEC -> BIN < DEC -> HEX -> BIN
+
+            //double d1 = Math.Round(v);
+            //double d2 = Math.Ceiling(v); 
+            //double d3 = Math.Floor(v);
+            //Console.WriteLine(d3);
+            //Console.WriteLine($"{v:X}"); 
+            //Console.WriteLine($"{v}");
+
+            //DateTime dt = DateTime.Now;
+
+            //Console.WriteLine($"{dt:M}");
+        }
+
+        // Method Signature
+        // return_type Name([optional] params)
+        public void ReturnVoid0Args()
+        {
+            int i = 0;
+            Console.WriteLine($"From ReturnVoid0Args method - {i}");
+        }
+
+        public void ReturnVoid1Args(int arg)
+        {
+            Console.WriteLine($"From ReturnVoid1Args method - {arg}");
+        }
+        public void ReturnVoidManyArgs(int arg1, int arg2)
+        {
+            Console.WriteLine($"From ReturnVoid1Args method - {arg1 + arg2}");
+        }
+
+        public void ReturnVoidArrArgs(int[] args)
+        {
+            Console.WriteLine($"From ReturnVoid1Args method -");
+            int sum = 0;
+            for (int i = 0; i < args.Length; i++)
+            {
+                sum += args[i];
+            }
+
+            Console.WriteLine(sum);
+        }
+
+        public void ReturnVoidManyNamedArgs(int arg1, int arg2)
+        {
+            Console.WriteLine($"From ReturnVoid1Args method - {arg1 + arg2}");
+        }
+
+        //public void ReturnVoidManyNamedArgs(int arg1, int arg2)
+        //{
+        //    //
+        //}
+
+        public void ReturnVoidManyWithDefaultValueArgs(int arg1, int arg2, int arg3 = 8)
+        {
+            int sum = arg1 + arg2 + arg3;
+
+            Console.WriteLine(sum);
+        }
+
+        public Range ReturnValue(int[] ints)
+        {
+            Range range = new Range();
+            range.MyProperty1 = ints[0];
+            range.MyProperty2 = ints[1];
+            range.MyProperty3 = ints[2];
+            int sum = ints.Sum();
+            return range;
+        }
+
+        public (int a, int b, int c) ReturnTuples(int[] ints) // Кортежі
+        {
+            //Range range = new Range();
+            //range.MyProperty1 = ints[0];
+            //range.MyProperty2 = ints[1];
+            //range.MyProperty3 = ints[2];
+            //int sum = ints.Sum();
+            return (ints[0], ints[1], ints[2]);
+        }
+
+
+        public void Sum(int a, int b)
+        {
+            Console.WriteLine(a + b);
+        }
+        public int Sum(int a)
+        {
+            Console.WriteLine();
+            return a;
+        }
+        public void Sum(decimal a, decimal b)
+        {
+            Console.WriteLine(a + b);
         }
     }
 }

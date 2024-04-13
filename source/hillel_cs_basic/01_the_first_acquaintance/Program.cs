@@ -6,16 +6,50 @@ namespace _01_the_first_acquaintance
 {
 
 #pragma warning disable S1118 // Utility classes should not have public constructors
-    internal class Program
+    public class Program
 #pragma warning restore S1118 // Utility classes should not have public constructors
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
 
-            StringExamples examples = new StringExamples();
-            examples.FunWithString();
+            //if (args.Length > 0)
+            //{
+            //    if (args[0] == ("status"))
+            //    {
+            //        Console.WriteLine("Show status");
+            //    }
+            //}
+
+            //for (int i = 0; i < args.Length; i++)
+            //{
+            //    Console.WriteLine(args[i]);
+            //}
+
+
+            StringExamples examples = new StringExamples(); // Instance || Екземпляр класу
+
+            int a = 8;
+            int b = 9;
+            decimal c = 10;
+            decimal d = 11;
+
+            examples.Sum()
+            //int sum = examples.ReturnValue(new int[] { 1, 7, 8 });
+
+            //var a = examples.ReturnTuples(new int[]{ 1, 2, 3});
+            //Console.WriteLine(a.a);
+
+            //Console.WriteLine($"{range.MyProperty1 + range.MyProperty2 + range.MyProperty3}");
+            //examples.ReturnVoidManyWithDefaultValueArgs(1, 2);
+            //examples.ReturnVoidManyNamedArgs(arg2: 6, arg1: 5);
+            //examples.ReturnVoid0Args(); // Визов метод || Call method
+            //examples.ReturnVoid1Args(5); // Визов метод || Call method
+            //examples.ReturnVoidManyArgs(5, 10); // Визов метод || Call method
+            //examples.ReturnVoidArrArgs(new int[5] { 1, 7, 5, 9, 2 }); // Визов метод || Call method
+
+            //examples.FunWithString();
 
 
 
@@ -86,8 +120,8 @@ namespace _01_the_first_acquaintance
             //FunWithArray();
 
             //int[] arr = { -4, 1, 1, 5, 3, 7, -2, 3 }; // 0      = new int[8]
-                                                      //int[] destArr = new int[10];
-                                                      // List<int>
+            //int[] destArr = new int[10];
+            // List<int>
 
 
             //ArrayExamples arrayExamples = new ArrayExamples();
@@ -162,7 +196,7 @@ namespace _01_the_first_acquaintance
 
         private static void PrintArray(int[] arr)
         {
-            foreach (int item in arr) 
+            foreach (int item in arr)
             {
                 Console.Write(item + " ");
             }
