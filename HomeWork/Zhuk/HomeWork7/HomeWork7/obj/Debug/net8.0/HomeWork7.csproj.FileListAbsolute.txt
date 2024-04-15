@@ -1,0 +1,15 @@
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\bin\Debug\net8.0\HomeWork7.exe
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\bin\Debug\net8.0\HomeWork7.deps.json
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\bin\Debug\net8.0\HomeWork7.runtimeconfig.json
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\bin\Debug\net8.0\HomeWork7.dll
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\bin\Debug\net8.0\HomeWork7.pdb
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\obj\Debug\net8.0\HomeWork7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\obj\Debug\net8.0\HomeWork7.AssemblyInfoInputs.cache
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\obj\Debug\net8.0\HomeWork7.AssemblyInfo.cs
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\obj\Debug\net8.0\HomeWork7.csproj.CoreCompileInputs.cache
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\obj\Debug\net8.0\HomeWork7.sourcelink.json
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\obj\Debug\net8.0\HomeWork7.dll
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\obj\Debug\net8.0\refint\HomeWork7.dll
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\obj\Debug\net8.0\HomeWork7.pdb
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\obj\Debug\net8.0\HomeWork7.genruntimeconfig.cache
+C:\Users\38050\OneDrive\Робочий стіл\HomeWorkC#\cs_basic_23-02-24\HomeWork\Zhuk\HomeWork7\HomeWork7\obj\Debug\net8.0\ref\HomeWork7.dll
