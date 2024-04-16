@@ -126,5 +126,25 @@ namespace _01_the_first_acquaintance
             Console.WriteLine(fileInfo.LastAccessTime);
             Console.WriteLine(fileInfo.LastWriteTime);
         }
+
+        public void SaveOurFile()
+        {
+            string[] arr = { "tes1", "test2", "test3" };
+
+            string textFile = Path.Combine(Directory.GetCurrentDirectory(), "db.txt");
+
+            StreamWriter text = File.CreateText(textFile);
+
+            foreach (string item in arr)
+            {
+                text.WriteLine(item);
+            }
+
+            text.Close();
+
+            Console.WriteLine(File.ReadAllText(textFile));
+        }
     }
+
+
 }

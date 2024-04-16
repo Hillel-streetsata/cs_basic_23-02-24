@@ -15,7 +15,7 @@ namespace _01_the_first_acquaintance
             Console.OutputEncoding = Encoding.UTF8;
 
             FunWithFileSystem funWithFileSystem = new FunWithFileSystem();
-            funWithFileSystem.FunWithFiles();
+            funWithFileSystem.SaveOurFile();
 
             //if (args.Length > 0)
             //{
