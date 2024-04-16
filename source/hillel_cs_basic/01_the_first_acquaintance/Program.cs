@@ -14,6 +14,9 @@ namespace _01_the_first_acquaintance
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
 
+            FunWithFileSystem funWithFileSystem = new FunWithFileSystem();
+            funWithFileSystem.FunWithFiles();
+
             //if (args.Length > 0)
             //{
             //    if (args[0] == ("status"))
@@ -28,14 +31,14 @@ namespace _01_the_first_acquaintance
             //}
 
 
-            StringExamples examples = new StringExamples(); // Instance || Екземпляр класу
+            //StringExamples examples = new StringExamples(); // Instance || Екземпляр класу
 
-            int a = 8;
-            int b = 9;
-            decimal c = 10;
-            decimal d = 11;
+            //int a = 8;
+            //int b = 9;
+            //decimal c = 10;
+            //decimal d = 11;
 
-            examples.Sum()
+            //examples.Sum();
             //int sum = examples.ReturnValue(new int[] { 1, 7, 8 });
 
             //var a = examples.ReturnTuples(new int[]{ 1, 2, 3});
