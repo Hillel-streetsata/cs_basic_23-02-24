@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 class Program
 {
@@ -23,19 +23,19 @@ class Program
 
     //1. Дане слово. Вивести на екран його третій символ.
 
-static void FirstTask()
+    static void FirstTask()
     {
 
-            //Console.WriteLine("Введіть будь-яке слово:  ");
-            //string wordStr = Console.ReadLine();
+        //Console.WriteLine("Введіть будь-яке слово:  ");
+        //string wordStr = Console.ReadLine();
 
-            //if (wordStr.Length < 3)
-            //{
-            //    Console.WriteLine("Введіть слово, яке складається з більше ніж 2 символи.");
-            //    return;
-            //}
+        //if (wordStr.Length < 3)
+        //{
+        //    Console.WriteLine("Введіть слово, яке складається з більше ніж 2 символи.");
+        //    return;
+        //}
 
-            //Console.WriteLine("Третій символ вашого слова:  " + wordStr[2]);
+        //Console.WriteLine("Третій символ вашого слова:  " + wordStr[2]);
 
     }
 
@@ -68,32 +68,32 @@ static void FirstTask()
 
     static void ThirdTask()
     {
-    //    try
-    //    {
+        //    try
+        //    {
 
-    //        string[] clubsStr = { "Динамо", "Шахтар", "Дніпро", "Карпати", "Таврія", "Чорноморець " };
+        //        string[] clubsStr = { "Динамо", "Шахтар", "Дніпро", "Карпати", "Таврія", "Чорноморець " };
 
-    //        Console.WriteLine("Введіть число від 1 до 6, щоб вибрати футбольну команду:  ");
+        //        Console.WriteLine("Введіть число від 1 до 6, щоб вибрати футбольну команду:  ");
 
-    //        int clubNum = int.Parse(Console.ReadLine());
+        //        int clubNum = int.Parse(Console.ReadLine());
 
-    //        if (clubNum >= 1 && clubNum <= 6)
-    //        {
-    //            Console.WriteLine();
-    //            foreach (char letter in clubsStr[clubNum - 1])
-    //            {
-    //                Console.WriteLine("Виведення стовпчиком: " + letter);
-    //            }
-    //        }
-    //        else
-    //        {
-    //            Console.WriteLine("Введене число не відповідає жодній команді.");
-    //        }
-    //    }
-    //    catch (Exception ex)
-    //    {
-    //        Console.WriteLine(ex.Message);
-    //    }
+        //        if (clubNum >= 1 && clubNum <= 6)
+        //        {
+        //            Console.WriteLine();
+        //            foreach (char letter in clubsStr[clubNum - 1])
+        //            {
+        //                Console.WriteLine("Виведення стовпчиком: " + letter);
+        //            }
+        //        }
+        //        else
+        //        {
+        //            Console.WriteLine("Введене число не відповідає жодній команді.");
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine(ex.Message);
+        //    }
 
     }
 
@@ -185,7 +185,7 @@ static void FirstTask()
         //{
         //    Console.WriteLine(ex.Message);
         //}
-      
+
     }
 
     //7. Даний текст. Усі пробіли у ньому замінити символом "_".
@@ -214,7 +214,7 @@ static void FirstTask()
 
     //8. Даний текст. Надрукувати всі наявні в ньому цифри.
 
-    static void EighthTask ()
+    static void EighthTask()
     {
         //try
         //{
@@ -237,7 +237,7 @@ static void FirstTask()
 
     //9. Даний текст, у якому є цифри. а) Знайти їхню суму. б) Знайти максимальну цифру
 
-    static void NinethTask ()
+    static void NinethTask()
     {
         //try
         //{
@@ -327,38 +327,38 @@ static void FirstTask()
 
     static void EleventhTask()
     {
-    //    try
-    //    {
-    //        Console.WriteLine("Введiть перше слово, використовуючи великi лiтери:");
-    //        string word1Str = Console.ReadLine();
+        //    try
+        //    {
+        //        Console.WriteLine("Введiть перше слово, використовуючи великi лiтери:");
+        //        string word1Str = Console.ReadLine();
 
-    //        Console.WriteLine("Введіть друге слово, використовуючи великі літери:");
-    //        string word2Str = Console.ReadLine();
+        //        Console.WriteLine("Введіть друге слово, використовуючи великі літери:");
+        //        string word2Str = Console.ReadLine();
 
-    //        Console.WriteLine("Введіть третє слово, використовуючи великі літери:");
-    //        string word3Str = Console.ReadLine();
+        //        Console.WriteLine("Введіть третє слово, використовуючи великі літери:");
+        //        string word3Str = Console.ReadLine();
 
-    //        string allWords = word1Str + word2Str + word3Str;
+        //        string allWords = word1Str + word2Str + word3Str;
 
-    //        string uniqueUpperCaseLetters = "";
+        //        string uniqueUpperCaseLetters = "";
 
-    //        foreach (char letter in allWords)
-    //        {
-            
-    //            int firstIndex = allWords.IndexOf(letter);
-    //            int lastIndex = allWords.LastIndexOf(letter);
+        //        foreach (char letter in allWords)
+        //        {
 
-    //            if (char.IsUpper(letter) && firstIndex == lastIndex)
-    //            {
-    //                uniqueUpperCaseLetters += letter;
-    //            }   
-    //        }
-    //        Console.WriteLine("Всі унікальні великі літери, введені користувачем: " + uniqueUpperCaseLetters);
-    //    }
-    //    catch (Exception ex)
-    //    {
-    //        Console.WriteLine(ex.Message);
-    //    }
+        //            int firstIndex = allWords.IndexOf(letter);
+        //            int lastIndex = allWords.LastIndexOf(letter);
+
+        //            if (char.IsUpper(letter) && firstIndex == lastIndex)
+        //            {
+        //                uniqueUpperCaseLetters += letter;
+        //            }   
+        //        }
+        //        Console.WriteLine("Всі унікальні великі літери, введені користувачем: " + uniqueUpperCaseLetters);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine(ex.Message);
+        //    }
     }
 
     //12. Дана пропозиція із 10 слів. Заповнити ними масив із 10 елементів.
@@ -392,28 +392,28 @@ static void FirstTask()
 
     //13. Даний текст. Надрукувати його у зворотному порядку слів, наприклад, пропозиція мама мила раму має бути надруковано у вигляді раму мила мама.
 
-    static void ThirteenthTask ()
+    static void ThirteenthTask()
     {
-    //    try
-    //    {
-    //        Console.WriteLine("Введіть текст: ");
-    //        string textReverseStr = Console.ReadLine();
+        //    try
+        //    {
+        //        Console.WriteLine("Введіть текст: ");
+        //        string textReverseStr = Console.ReadLine();
 
-    //        string[] wordsStr = textReverseStr.Split(' ');
+        //        string[] wordsStr = textReverseStr.Split(' ');
 
-    //        Console.WriteLine("Текст у зворотньому порядку слів:");
-    //        for (int i = wordsStr.Length - 1; i >= 0; i--)
-    //        {
-    //            Console.Write( wordsStr[i] + " ");
-    //        }
-    //        Console.WriteLine();
+        //        Console.WriteLine("Текст у зворотньому порядку слів:");
+        //        for (int i = wordsStr.Length - 1; i >= 0; i--)
+        //        {
+        //            Console.Write( wordsStr[i] + " ");
+        //        }
+        //        Console.WriteLine();
 
 
-    //    }
-    //    catch (Exception ex)
-    //    {
-    //        Console.WriteLine(ex.Message);
-    //    }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine(ex.Message);
+        //    }
     }
 
     //14. Даний текст. Визначити: а) кількість слів, що починаються з літери н; б) кількість слів, що закінчуються літерою р.
