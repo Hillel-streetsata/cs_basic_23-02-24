@@ -1,318 +1,352 @@
-﻿using System.Reflection.Emit;
+﻿using System;
 using System.Text;
-using System.Threading.Channels;
 
-namespace HomeWork2
+class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Divider()
+        Console.OutputEncoding = UTF8Encoding.UTF8;
+        FirstTask();
+        SecondTask();
+        ThirdTask();
+        FourthTask();
+        FifthTask();
+        SixthTask();
+        SeventhTask();
+        EigthTask();
+        NeinthTask();
+        TenthTask();
+        EleventhTask();
+        TwelfthTask();
+        ThirteenthTask();
+        FourteenththTask();
+    }
+
+    static void FirstTask()
+    {
+
+        // Завдання 1
+        Console.WriteLine("Завдання 1".PadLeft((Console.WindowWidth + "Завдання 1".Length) / 2));
+
+        string word = "Cлово";
+
+        if (word.Length >= 3)
         {
-            Console.WriteLine(new string('-', 14));
+            char thirdLetter = word[2];
+            Console.WriteLine("Третій символ: " + thirdLetter);
         }
-        static void TaskOne()
+        else
         {
-            try
-            {
-                Console.WriteLine("Task №1 \n");
-
-                Console.Write("Введіть число: ");
-                int number = Convert.ToInt32(Console.ReadLine());
-
-                bool isPositive = number > 0;
-
-                bool isNegative = number < 0;
-
-                bool isZero = number == 0;
-
-
-
-                if (isPositive)
-                {
-                    number += 1;
-                }
-                if (isNegative)
-                {
-                    number -= 2;
-                }
-                if (isZero)
-                {
-                    number = 10;
-                }
-                Console.WriteLine("Отримане число: " + number);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Помилка, була введена літера, або символ\n");
-            }
-        }
-        static void TaskTwo()
-        {
-            Console.WriteLine("Task №2\n");
-            try
-            {
-                Console.Write("Запишіть перше число: ");
-                int num1 = Convert.ToInt32(Console.ReadLine());
-
-                Console.Write("Запишіть друге число: ");
-                int num2 = Convert.ToInt32(Console.ReadLine());
-
-                Console.Write("Запишіть третє число: ");
-                int num3 = Convert.ToInt32(Console.ReadLine());
-
-                int count = 0;
-                if (num1 > 0) count++;
-                if (num2 > 0) count++;
-                if (num3 > 0) count++;
-
-                Console.WriteLine($"Кількіст додатних чисел у вихідному наборі: {count}" + "");
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine();
-
-                Console.WriteLine("Помилка, була введена літера, або символ\n");
-            }
-        }
-        static void TaskThree()
-        {
-            Console.WriteLine("Task №3\n");
-            try
-            {
-                Console.Write("Запишіть перше число: ");
-                int num1 = Convert.ToInt32(Console.ReadLine());
-
-                Console.Write("Запишіть друге число: ");
-                int num2 = Convert.ToInt32(Console.ReadLine());
-
-                Console.Write("Запишіть третє число: ");
-                int num3 = Convert.ToInt32(Console.ReadLine());
-
-                int positiveCount = 0;
-                int negativeCount = 0;
-
-                if (num1 > 0) positiveCount++;
-                else if (num1 < 0) negativeCount++;
-
-                if (num2 > 0) positiveCount++;
-                else if (num2 < 0) negativeCount++;
-
-                if (num3 > 0) positiveCount++;
-                else if (num3 < 0) negativeCount++;
-
-                Console.Write("Кількість додатніх чисел: " + positiveCount + "\n");
-                Console.Write("Кідькість відємних чисел: " + negativeCount + "\n");
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine();
-
-                Console.WriteLine("Помилка, була введена літера, або символ\n");
-            }
-        }
-        static void TaskFour()
-        {
-            Console.WriteLine("Task №4\n");
-            try
-            {
-                Console.Write("Введіть число A: ");
-                int A = int.Parse(Console.ReadLine());
-                Console.WriteLine();
-
-                Console.Write("Введіть число B: ");
-                int B = int.Parse(Console.ReadLine());
-                Console.WriteLine();
-
-                if (A != B)
-                {
-                    A = A + B;
-                    B = A;
-                }
-                else
-                {
-                    A = 0;
-                    B = 0;
-                }
-                Console.WriteLine($"Нові значення:  A = {A}, B = {B}\n");
-            }
-            catch
-            {
-                Console.WriteLine("Помілка, була введена літера, або символ");
-            }
-        }
-        static void TaskFive()
-        {
-            Console.WriteLine("Tasl №5\n");
-            try
-            {
-                Console.Write("Введіть число: ");
-                int num = int.Parse(Console.ReadLine());
-
-                if (num % 2 == 0)
-                {
-                    Console.WriteLine($"Число {num} є парним\n");
-                }
-                else
-                {
-                    Console.WriteLine($"Число {num} не є парним\n");
-                }
-            }
-            catch
-            {
-                Console.WriteLine("Помілка, була введена літера, або символ\n");
-            }
-        }
-        static void TaskSix()
-        {
-            Console.WriteLine("Task №6 \n");
-
-            Console.Write("Введіть номер одиниці довжини (1-5): ");
-            int unitNumber = int.Parse(Console.ReadLine());
-
-            Console.Write("Введіть довжину відрізка: ");
-            double length = double.Parse(Console.ReadLine());
-
-            double lengthInMeters;
-
-            switch (unitNumber)
-            {
-                case 1:
-                    lengthInMeters = length * 0.1;
-                    break;
-                case 2:
-                    lengthInMeters = length * 1000;
-                    break;
-                case 3:
-                    lengthInMeters = length;
-                    break;
-                case 4:
-                    lengthInMeters = length * 0.001;
-                    break;
-                case 5:
-                    lengthInMeters = length * 0.01;
-                    break;
-                default:
-                    Console.WriteLine("Невірний номер одиниці довжини!");
-                    return;
-            }
-
-            Console.WriteLine($"Довжина відрізка в метрах: {lengthInMeters}");
-        }
-        static void TaskSeven()
-        {
-            Console.WriteLine("Task №7 \n");
-
-            Console.Write("Введіть початковий напрямок робота (N, W, S, E): ");
-            char currentDirection = Console.ReadLine()[0];
-
-            Console.Write("Введіть команду (0 - продовжити рух, 1 - повернути ліворуч, -1 - повернути праворуч.): ");
-            int command = Convert.ToInt32(Console.ReadLine());
-
-            char newDiectoin = CalculateNewDirection(currentDirection, command);
-            Console.WriteLine($"Напрямок руху робота після команди: {newDiectoin}");
-        }
-
-        static char CalculateNewDirection(char currentDirection, int command)
-        {
-            char[] directions = { 'N', 'E', 'S', 'W' };
-            int currentIndex = Array.IndexOf(directions, currentDirection);
-
-            currentIndex = (currentIndex + command) % 4;
-
-            if (currentIndex < 0)
-            {
-                currentIndex += 4;
-            }
-
-            return directions[currentIndex];
+            Console.WriteLine("Рядок занадто короткий, щоб отримати третій символ.");
 
         }
-        static void TaskEight()
+    }
+    static void SecondTask()
+    {
+
+        // Завдання 2
+        Console.WriteLine("Завдання 2".PadLeft((Console.WindowWidth + "Завдання 2".Length) / 2));
+
+        string word = "Слово";
+
+        if (word.Length >= 4)
         {
-            Console.WriteLine("Task №8 \n");
 
-            Console.Write("Введіть вік: ");
-            int age = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine(AgeToString(age));
-        }
-        static string AgeToString(int age)
-        {
-            string[] units = { "", "один", "два", "три", "чотири", "п'ять", "шість", "сім", "вісім", "дев'ять" };
-            string[] tens = { "", "", "двадцять", "тридцять", "сорок", "п'ятдесят", "шістдесят" };
-
-            int unit = age % 10;
-            int ten = age / 10;
-
-            string result = tens[ten];
-
-            if (unit > 0)
+            if (word[1] == word[3])
             {
-                result += " " + units[unit];
-            }
-
-            if (age == 21)
-            {
-                result += " один";
-            }
-            else if (age == 22)
-            {
-                result += " два";
-            }
-
-            if (unit == 1 && age != 11)
-            {
-                result += " рік";
-            }
-            else if ((unit >= 2 && unit <= 4) || (age >= 5 && age <= 20) || (unit >= 5 && unit <= 9 && age >= 21 && age <= 29))
-            {
-                result += " роки";
+                Console.WriteLine("Другий і четвертий символи однакові: " + word[1]);
             }
             else
             {
-                result += "років: ";
+                Console.WriteLine("Другий і четвертий символи різні.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Слово занадто коротке для порівняння другого і четвертого символів.");
+        }
+    }
+    static void ThirdTask()
+    {
+
+        // Завдання 3
+        Console.WriteLine("Завдання 3".PadLeft((Console.WindowWidth + "Завдання 3".Length) / 2));
+
+        string clubName = "Шахтар";
+
+
+        foreach (char symbol in clubName)
+        {
+            Console.WriteLine(symbol);
+        }
+    }
+    static void FourthTask()
+    {
+
+        // Завдання 4
+        Console.WriteLine("Завдання 4".PadLeft((Console.WindowWidth + "Завдання 4".Length) / 2));
+
+        string s1 = "Слово";
+        string s2 = "";
+
+        // Проходимо по кожній літері слова s1
+        for (int i = 0; i < s1.Length; i++)
+        {
+            // Додаємо до s2 літери з непарними індексами
+            if (i % 2 != 0)
+            {
+                s2 += s1[i];
+            }
+        }
+
+        Console.WriteLine("s2, утворене непарними літерами слова s1: " + s2);
+    }
+    static void FifthTask()
+    {
+
+        // Завдання 5
+        Console.WriteLine("Завдання 5".PadLeft((Console.WindowWidth + "Завдання 5".Length) / 2));
+
+        string text = "2+2=4 та 2*2=4, але 3+3=6 та 3*3=9";
+
+        int plusCount = 0;
+        int starCount = 0;
+
+
+        foreach (char symbol in text)
+        {
+            if (symbol == '+')
+            {
+                plusCount++;
+            }
+            else if (symbol == '*')
+            {
+                starCount++;
+            }
+        }
+
+        Console.WriteLine("Кількість символів '+': " + plusCount);
+        Console.WriteLine("Кількість символів '*': " + starCount);
+
+    }
+    static void SixthTask()
+    {
+
+        // Завдання 6
+        Console.WriteLine("Завдання 6".PadLeft((Console.WindowWidth + "Завдання 6".Length) / 2));
+
+        string text = "Тут текст у котрому всі літери 'е' буде замінено на 'і' ";
+
+
+        string modifiedText = text.Replace('е', 'і'); // Заміна всіх букв "е" на "і"
+
+        Console.WriteLine("Оригінальний текст: " + text);
+        Console.WriteLine("Текст після зaміни: " + modifiedText);
+
+    }
+    static void SeventhTask()
+    {
+
+        // Завдання 7
+        Console.WriteLine("Завдання 7".PadLeft((Console.WindowWidth + "Завдання 7".Length) / 2));
+
+        string text = "Тут текст у котрому всі пробіли буде замінено на '_'";
+
+
+        string modifiedText = text.Replace(' ', '_'); // Заміна всіх пробілів на "_"
+
+        Console.WriteLine("Оригінальний текст: " + text);
+        Console.WriteLine("Текст після зaміни: " + modifiedText);
+
+    }
+    static void EigthTask()
+    {
+
+        // Завдання 8
+        Console.WriteLine("Завдання 8".PadLeft((Console.WindowWidth + "Завдання 8".Length) / 2));
+
+        string text = "Число 45 більше ніж число 34";
+
+        Console.WriteLine("Цифри у тексті:");
+
+
+        foreach (char symbol in text)
+        {
+
+            if (Char.IsDigit(symbol))
+            {
+                Console.WriteLine(symbol);
+            }
+        }
+    }
+    static void NeinthTask()
+    {
+
+        // Завдання 9
+        Console.WriteLine("Завдання 9".PadLeft((Console.WindowWidth + "Завдання 9".Length) / 2));
+
+        string text = "У тексті є цифри 1239, 31, 34, 120";
+
+        int sum = 0;
+        int max = int.MinValue;
+
+
+        foreach (char symbol in text)
+        {
+
+            if (Char.IsDigit(symbol))
+            {
+                int number = symbol - '0';
+
+
+                sum += number;
+
+
+                if (number > max)
+                {
+                    max = number;
+                }
+            }
+        }
+
+
+        Console.WriteLine("Сума цифр у тексті: " + sum);
+        Console.WriteLine("Максимальна цифра у тексті: " + max);
+    }
+    static void TenthTask()
+    {
+
+        // Завдання 10
+        Console.WriteLine("Завдання 10".PadLeft((Console.WindowWidth + "Завдання 10".Length) / 2));
+
+        string[] country = new string[3];
+        string[] capital = new string[3];
+
+
+        for (int i = 0; i < country.Length; i++)
+        {
+            Console.Write("Введіть назву держави: ");
+            country[i] = Console.ReadLine();
+
+            Console.Write("Введіть назву столиці цієї держави: ");
+            capital[i] = Console.ReadLine();
+        }
+
+
+        for (int i = 0; i < country.Length; i++)
+        {
+            Console.WriteLine("Столиця держави " + country[i] + " — місто " + capital[i]);
+        }
+    }
+    static void EleventhTask()
+    {
+
+        // Завдання 11
+        Console.WriteLine("Завдання 11".PadLeft((Console.WindowWidth + "Завдання 11".Length) / 2));
+
+
+        Console.WriteLine("Введіть три слова:");
+        string word1 = Console.ReadLine();
+        string word2 = Console.ReadLine();
+        string word3 = Console.ReadLine();
+
+
+        char[] chars1 = word1.ToCharArray();
+        char[] chars2 = word2.ToCharArray();
+        char[] chars3 = word3.ToCharArray();
+
+
+        var Letters = chars1.Intersect(chars2).Intersect(chars3);
+
+
+        Console.WriteLine("Загальні літери в трьох словах:");
+        foreach (char letter in Letters)
+        {
+            Console.WriteLine(letter);
+        }
+    }
+    static void TwelfthTask()
+    {
+
+        // Завдання 12
+        Console.WriteLine("Завдання 12".PadLeft((Console.WindowWidth + "Завдання 12".Length) / 2));
+
+
+        string sentence = "Тут буде написанно 10 слів (м'яч, футболист, баскетболист, літак, авто)";
+
+
+        string[] words = sentence.Split(' ');
+
+
+        if (words.Length == 10)
+        {
+
+            Console.WriteLine("Слова з пропозиції:");
+            foreach (string word in words)
+            {
+                Console.WriteLine(word);
+            }
+        }
+        else
+        {
+            Console.WriteLine("Помилка: кількість слів у пропозиції не дорівнює 10.");
+        }
+    }
+    static void ThirteenthTask()
+    {
+
+        // Завдання 13
+        Console.WriteLine("Завдання 13".PadLeft((Console.WindowWidth + "Завдання 13".Length) / 2));
+
+
+        string text = "мама мила раму";
+
+
+        string[] words = text.Split(' ');
+
+
+        Console.WriteLine("Текст у зворотному порядку слів:");
+        for (int i = words.Length - 1; i >= 0; i--)
+        {
+            Console.Write(words[i] + " ");
+
+
+        }
+    }
+    static void FourteenththTask()
+    {
+
+        // Завдання 14
+        Console.WriteLine("Завдання 14".PadLeft((Console.WindowWidth + "Завдання 14".Length) / 2));
+
+
+        string text = "Всим привіт! Під кінець курсу у вас буде залікова. Використовувати можна все що вивчили, та навіть більше. Здебільшого тут використання всього алгоритмичного арсеналу, що вивчали, методів та можливо використання ООП (в легкому варіанті). Наразі ваша задача вибрати одну тему з перерахованих. Це ваша залікова робота.";
+
+
+        string[] words = text.Split(new char[] { ' ', ',', '.', '!', '?', '-', ';', ':', '(', ')', '\"', '\'' }, StringSplitOptions.RemoveEmptyEntries);
+
+
+        int startsWithN = 0;
+        int endsWithR = 0;
+
+        foreach (string word in words)
+        {
+
+            if (word.StartsWith("н", StringComparison.OrdinalIgnoreCase))
+            {
+                startsWithN++;
             }
 
-            return result;
+
+            if (word.EndsWith("р", StringComparison.OrdinalIgnoreCase))
+            {
+                endsWithR++;
+            }
         }
 
 
-        static void Main(string[] args)
-        {
-            Console.OutputEncoding = UTF8Encoding.UTF8;
+        Console.WriteLine("Кількість слів, що починаються з літери 'н': " + startsWithN);
+        Console.WriteLine("Кількість слів, що закінчуються літерою 'р': " + endsWithR);
 
-            Divider();
-
-            TaskOne();
-
-            Divider();
-
-            TaskTwo();
-
-            Divider();
-
-            TaskThree();
-
-            Divider();
-
-            TaskFour();
-
-            Divider();
-
-            TaskFive();
-
-            Divider();
-
-            TaskSix();
-
-            Divider();
-
-            TaskSeven();
-
-            Divider();
-
-            TaskEight();
-
-        }
     }
 }
