@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artem\\Desktop\\HomeWork\\cs_basic_23-02-24\\HomeWork\\Kozlov\\HomeWork4\\HomeWork4\\HomeWork4.csproj",
+      "projectUniqueName": "F:\\it\\HomeWork4\\HomeWork4\\HomeWork4.csproj",
       "projectName": "HomeWork4",
-      "projectPath": "C:\\Users\\artem\\Desktop\\HomeWork\\cs_basic_23-02-24\\HomeWork\\Kozlov\\HomeWork4\\HomeWork4\\HomeWork4.csproj",
+      "projectPath": "F:\\it\\HomeWork4\\HomeWork4\\HomeWork4.csproj",
       "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\artem\\Desktop\\HomeWork\\cs_basic_23-02-24\\HomeWork\\Kozlov\\HomeWork4\\HomeWork4\\obj\\",
+      "outputPath": "F:\\it\\HomeWork4\\HomeWork4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
