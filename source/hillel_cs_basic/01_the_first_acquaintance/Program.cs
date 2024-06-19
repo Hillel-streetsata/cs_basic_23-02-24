@@ -6,13 +6,55 @@ namespace _01_the_first_acquaintance
 {
 
 #pragma warning disable S1118 // Utility classes should not have public constructors
-    internal class Program
+    public class Program
 #pragma warning restore S1118 // Utility classes should not have public constructors
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
+
+            FunWithFileSystem funWithFileSystem = new FunWithFileSystem();
+            funWithFileSystem.SaveOurFile();
+
+            //if (args.Length > 0)
+            //{
+            //    if (args[0] == ("status"))
+            //    {
+            //        Console.WriteLine("Show status");
+            //    }
+            //}
+
+            //for (int i = 0; i < args.Length; i++)
+            //{
+            //    Console.WriteLine(args[i]);
+            //}
+
+
+            //StringExamples examples = new StringExamples(); // Instance || Екземпляр класу
+
+            //int a = 8;
+            //int b = 9;
+            //decimal c = 10;
+            //decimal d = 11;
+
+            //examples.Sum();
+            //int sum = examples.ReturnValue(new int[] { 1, 7, 8 });
+
+            //var a = examples.ReturnTuples(new int[]{ 1, 2, 3});
+            //Console.WriteLine(a.a);
+
+            //Console.WriteLine($"{range.MyProperty1 + range.MyProperty2 + range.MyProperty3}");
+            //examples.ReturnVoidManyWithDefaultValueArgs(1, 2);
+            //examples.ReturnVoidManyNamedArgs(arg2: 6, arg1: 5);
+            //examples.ReturnVoid0Args(); // Визов метод || Call method
+            //examples.ReturnVoid1Args(5); // Визов метод || Call method
+            //examples.ReturnVoidManyArgs(5, 10); // Визов метод || Call method
+            //examples.ReturnVoidArrArgs(new int[5] { 1, 7, 5, 9, 2 }); // Визов метод || Call method
+
+            //examples.FunWithString();
+
+
 
             // artemenko_hw_5
 
@@ -25,7 +67,7 @@ namespace _01_the_first_acquaintance
             //{
             //    if (char.IsDigit(arg))
             //    {
-                    
+
             //    }
             //}
 
@@ -78,11 +120,122 @@ namespace _01_the_first_acquaintance
             //Console.WriteLine(result);
 
             // FunWithConditions();
-            FunWithArray();
+            //FunWithArray();
+
+            //int[] arr = { -4, 1, 1, 5, 3, 7, -2, 3 }; // 0      = new int[8]
+            //int[] destArr = new int[10];
+            // List<int>
+
+
+            //ArrayExamples arrayExamples = new ArrayExamples();
+            //arrayExamples.FunWithMultyDemensionsArr();
+            //arrayExamples.FunWithJaggedArray();
+            //PrintArray(arr);
+
+            //Array.Sort(arr); // quickSort > 10000 1000-10000 Insert < 1000 SelectionSort
+            //arrayExamples.ArraySort(arr);
+            //PrintArray(arr);
+            //Console.WriteLine();
+            //int elem = 1;
+
+            // ElastikSearch
+            // ExpressionTree
+
+            //int index = arrayExamples.BinSearch(arr, elem);
+
+            //Console.WriteLine(index);
+
+
+            //Array.Resize(ref arr, 10);
+
+            //PrintArray(arr);
+
+            //arr[8] = 7;
+            //arr[9] = 6;
+
+            //PrintArray(arr);
+
+
+            ////arrayExamples.ArrayCopy(arr, ref destArr);
+
+            //PrintArray(destArr);
+
+            //Array.Copy(arr, destArr, arr.Length);
+
+            //PrintArray(destArr);
+
+            //arrayExamples.FoundPosition(arr, 3);
+            //arrayExamples.Count(arr, 1);
+
+            //ArrayExamples arrayExamples = new ArrayExamples();
+            //arrayExamples.ArrayMaxElement(arr);
+            //Console.WriteLine();
+            //arrayExamples.AverageArr(arr);
+            //Console.WriteLine();
+            //arrayExamples.SumEvenElementOfArr(arr);
+            //Console.WriteLine();
+            ////arrayExamples.ReverseArr(arr);
+            ////Console.WriteLine();
+            //arrayExamples.IsSortedIntoGrowingOrder(arr);
+            //Console.WriteLine();
+            //arrayExamples.SwitchNegativeElements(arr);
+
+            //int a = 7; // 8
+            //int b = 8; // 7
+            //Console.WriteLine($"{a} {b}");
+            //Swap(ref a, ref b);
+            //Console.WriteLine($"{a} {b}");
+        }
+
+        // Копіювання значення
+        private static void Swap(ref int a, ref int b)
+        {
+            //Console.WriteLine($"{a} {b}");
+            int c = a;
+            a = b;
+            b = c;
+            //Console.WriteLine($"{a} {b}");
+        }
+
+        private static void PrintArray(int[] arr)
+        {
+            foreach (int item in arr)
+            {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine();
         }
 
         private static void FunWithArray()
         {
+            // Collections
+            // Queue - First In First Out
+            // Stack - First In Last Out
+
+            // Array default value 
+
+            // Одновимірні масиви
+            //int i = 100_00_00_00;
+            //int[] array = new int[10]; // 0 n(10) - 1
+            //int[] array = [78, 22, 34, 7, 9, 8]; // C# 9 .Net 6
+            //array[0] = 8;
+            //array[1] = 7;
+            //// array[10] = 8; exeption
+
+            //Console.WriteLine(array[0]);
+
+            //int[] arr = new int[10];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    arr[i] = i * 8; // Access
+            //    Console.Write(arr[i] + " ");
+            //}
+
+            // Багатовимирні масиви
+            //      2...3..n (Matrix) Тесиракт
+            //      Jagged (Рвані) Charts 
+
             /* Tasks
              * Напишіть програму, яка знаходить найбільший елемент у масиві.
              * Напишіть програму, яка знаходить середнє арифметичне всіх елементів у масиві.
@@ -93,9 +246,44 @@ namespace _01_the_first_acquaintance
              * Напишіть програму, яка знаходить позицію (індекс) заданого елемента у масиві.
              * Напишіть програму, яка обчислює кількість входжень заданого елемента у масив.
              */
+
+            int[] arr = new int[10];
+
+            Random rnd = new Random();
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = rnd.Next(1, 100);
+                Console.Write($"{arr[i]} ");
+            }
+
+            int max = arr[0];
+            int min = arr[0];
+            double sum = 0;
+            int evenSum = 0;
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                sum += arr[i];
+
+                if (max < arr[i])
+                {
+                    max = arr[i];
+                }
+
+                if (min > arr[i])
+                {
+                    min = arr[i];
+                }
+
+                if (i % 2 == 0)
+                {
+                    evenSum += arr[i];
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine($"{min} {max} {sum / arr.Length} {evenSum}");
         }
-
-
 
         //static void FunWithBasicDataTypes()
         //{
